@@ -1,0 +1,57 @@
+2024-12-29 02:45:01.374 [trace] [File Watcher (node.js)] Request to start watching: /home/roos/.config/Code - OSS/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/roos/.config/Code - OSS/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:45:01.374 [debug] Starting VS Code
+2024-12-29 02:45:01.374 [debug] from: /usr/lib/code
+2024-12-29 02:45:01.374 [debug] args: {"_":["/home/roos/tmp"],"diff":false,"merge":false,"add":false,"goto":false,"new-window":true,"reuse-window":false,"wait":false,"help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"update-extensions":false,"version":false,"verbose":true,"log":["debug"],"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":true,"disable-lcd-text":false,"disable-gpu":false,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"trace":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":false,"profile-temp":false,"logsPath":"/home/roos/.config/Code - OSS/logs/20241229T024501"}
+2024-12-29 02:45:01.374 [trace] Resolving machine identifier...
+2024-12-29 02:45:01.374 [trace] Resolved machine identifier: 50c8838b8ff5c0f53653b6acfd4ae46eaa8f5f93771c40ba0cca27a55d183ff0
+2024-12-29 02:45:01.374 [trace] Main->SharedProcess#connect
+2024-12-29 02:45:01.374 [trace] StorageMainService: creating application storage
+2024-12-29 02:45:01.374 [trace] ElectronURLListener: waiting for window to be ready to handle URLs...
+2024-12-29 02:45:01.374 [trace] lifecycle (main): phase changed (value: 2)
+2024-12-29 02:45:01.374 [trace] windowsManager#open
+2024-12-29 02:45:01.374 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.config/Code - OSS/User'
+2024-12-29 02:45:01.374 [trace] windowsManager#open pathsToOpen [{"fileUri":{"$mid":1,"path":"/home/roos/tmp","scheme":"file"},"type":1,"exists":false}]
+2024-12-29 02:45:01.374 [trace] windowsManager#doOpenEmpty {"restore":true,"filesToOpen":{"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/roos/tmp","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]},"forceNewWindow":true}
+2024-12-29 02:45:01.374 [trace] IPC Object URL: Registered new channel vscode:6e37f117-fe79-4edd-b905-0ddad67971a2.
+2024-12-29 02:45:01.374 [trace] window#validateWindowState: validating window state on 1 display(s) {"mode":1,"x":32,"y":35,"width":1034,"height":1168}
+2024-12-29 02:45:01.374 [trace] window#validateWindowState: single monitor working area {"x":0,"y":0,"width":1920,"height":1200}
+2024-12-29 02:45:01.374 [trace] window#ctor: using window state {"mode":1,"x":32,"y":35,"width":1034,"height":1168}
+2024-12-29 02:45:01.374 [trace] window#load: attempt to load window (id: 1)
+2024-12-29 02:45:01.374 [trace] windowsManager#open used window count 1 (workspacesToOpen: 0, foldersToOpen: 0, emptyToRestore: 1, openOneEmptyWindow: false)
+2024-12-29 02:45:01.374 [trace] lifecycle (main): phase changed (value: 3)
+2024-12-29 02:45:01.374 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2024-12-29 02:45:01.374 [info] update#setState disabled
+2024-12-29 02:45:01.374 [info] update#ctor - updates are disabled as there is no update URL
+2024-12-29 02:45:01.374 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: /home/roos/.config/Code - OSS/User/settings.json (error: Error: ENOENT: no such file or directory, stat '/home/roos/.config/Code - OSS/User/settings.json')
+2024-12-29 02:45:01.374 [trace] [File Watcher (node.js)] starting fs.watchFile() on /home/roos/.config/Code - OSS/User/settings.json (correlationId: undefined)
+2024-12-29 02:45:01.512 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2024-12-29 02:45:01.907 [trace] StorageMainService: creating workspace storage (1735436617724)
+2024-12-29 02:45:02.156 [trace] [File Watcher (node.js)] Request to stop watching: /home/roos/.config/Code - OSS/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:45:02.156 [trace] [File Watcher (node.js)] stopping file watcher (/home/roos/.config/Code - OSS/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2024-12-29 02:45:02.177 [trace] window#load: window reported ready (id: 1)
+2024-12-29 02:45:02.177 [trace] ElectronURLListener#flush(): flushing URLs
+2024-12-29 02:45:02.275 [trace] menubarService#updateMenubar 1
+2024-12-29 02:45:02.310 [trace] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2024-12-29 02:45:02.325 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 5122]: successfully created
+2024-12-29 02:45:02.394 [trace] [SharedProcess] onWindowConnection for: vscode:createSharedProcessChannelConnectionResult
+2024-12-29 02:45:02.395 [trace] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2024-12-29 02:45:02.404 [trace] [UtilityProcess type: shared-process, pid: <none>]: payload sent via postMessage()
+2024-12-29 02:45:02.405 [trace] [UtilityProcessWorker]: createWorker(window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2024-12-29 02:45:02.406 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2024-12-29 02:45:02.415 [trace] [UtilityProcess type: shared-process, pid: 5132]: successfully created
+2024-12-29 02:45:02.416 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 5133]: successfully created
+2024-12-29 02:45:02.635 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2024-12-29 02:45:02.647 [debug] Terminal profile not validated tmux ["tmux"]
+2024-12-29 02:45:02.647 [debug] Terminal profile not validated pwsh ["pwsh"]
+2024-12-29 02:45:02.673 [trace] [SharedProcess] IPC ready
+2024-12-29 02:45:02.673 [trace] Main->SharedProcess#connect: connection established
+2024-12-29 02:45:02.686 [trace] [File Watcher (node.js)] Request to start watching: /home/roos/.config/Code - OSS/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/roos/.config/Code - OSS/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:45:02.687 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.config/Code - OSS/User'
+2024-12-29 02:45:02.687 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: /home/roos/.config/Code - OSS/User/settings.json (error: Error: ENOENT: no such file or directory, stat '/home/roos/.config/Code - OSS/User/settings.json')
+2024-12-29 02:45:02.687 [trace] [File Watcher (node.js)] starting fs.watchFile() on /home/roos/.config/Code - OSS/User/settings.json (correlationId: undefined)
+2024-12-29 02:45:02.698 [trace] [SharedProcess] Overall ready
+2024-12-29 02:45:02.714 [trace] [File Watcher (node.js)] Request to start watching: /home/roos/.vscode-oss/extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/roos/.vscode-oss/extensions/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:45:02.714 [trace] [File Watcher (node.js)] Request to stop watching: /home/roos/.config/Code - OSS/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:45:02.714 [trace] [File Watcher (node.js)] stopping file watcher (/home/roos/.config/Code - OSS/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2024-12-29 02:45:02.715 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.vscode-oss/extensions'
+2024-12-29 02:45:02.716 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.vscode-oss/extensions/extensions.json'

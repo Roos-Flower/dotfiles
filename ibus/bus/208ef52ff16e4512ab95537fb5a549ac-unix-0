@@ -1,0 +1,7 @@
+# This file is created by ibus-daemon, please do not modify it.
+# This file allows processes on the machine to find the
+# ibus session bus with the below address.
+# If the IBUS_ADDRESS environment variable is set, it will
+# be used rather than this file.
+IBUS_ADDRESS=unix:path=/home/roos/.cache/ibus/dbus-yeYT3i6S,guid=65f5bb70636647edf4af627867705dcd
+IBUS_DAEMON_PID=1837

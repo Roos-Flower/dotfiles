@@ -1,0 +1,5 @@
+2025-01-05 17:53:43.579 [info] update#setState idle
+2025-01-05 17:54:13.584 [info] update#setState checking for updates
+2025-01-05 17:54:13.586 [info] update#setState idle
+2025-01-05 17:54:14.459 [error] [sudo-prompt] received stderr: Error executing command as another user: No authentication agent found.
+

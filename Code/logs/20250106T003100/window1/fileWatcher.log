@@ -1,0 +1,1 @@
+2025-01-06 00:31:01.838 [error] [File Watcher (node.js)] Failed to watch /etc/sudoers for changes using fs.watch() (Error: EACCES: permission denied, watch '/etc/sudoers')

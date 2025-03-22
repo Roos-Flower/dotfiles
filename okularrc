@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/Gtk.lua
+File2[$e]=$HOME/Screenshot-_20241013124428.png
+Name1[$e]=Gtk.lua
+Name2[$e]=Screenshot-_20241013124428.png

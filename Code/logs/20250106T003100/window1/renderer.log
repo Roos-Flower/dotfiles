@@ -1,0 +1,31 @@
+2025-01-06 00:31:01.254 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-06 00:31:01.255 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-06 00:31:01.255 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-06 00:31:01.493 [error] Error: Unable to read file '/etc/sudoers' (NoPermissions (FileSystemError): An unknown error occurred. Please consult the log for more details.)
+    at _ot.F (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:64665)
+    at Object.error (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:64811)
+    at Object.onError (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:3899)
+    at vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:3071
+    at vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1586
+    at Array.forEach (<anonymous>)
+    at y0i.h (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1575)
+    at y0i.error (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1336)
+    at oee.value (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:75070)
+    at x.B (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)
+2025-01-06 00:31:01.543 [info] Started local extension host with pid 21950.
+2025-01-06 00:31:01.760 [error] [File Watcher (node.js)] Failed to watch /etc/sudoers for changes using fs.watch() (Error: EACCES: permission denied, watch '/etc/sudoers')
+2025-01-06 00:31:01.984 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-06 00:31:04.137 [error] [network] #1: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-01-06 00:31:04.137 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-01-06 00:31:04.409 [info] [perf] Render performance baseline is 181ms
+2025-01-06 00:31:07.485 [error] Error: Unable to read file '/etc/sudoers' (NoPermissions (FileSystemError): An unknown error occurred. Please consult the log for more details.)
+    at _ot.F (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:64665)
+    at Object.error (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:64811)
+    at Object.onError (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:3899)
+    at vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:3071
+    at vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1586
+    at Array.forEach (<anonymous>)
+    at y0i.h (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1575)
+    at y0i.error (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:32:1336)
+    at oee.value (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:75070)
+    at x.B (vscode-file://vscode-app/var/lib/snapd/snap/code/179/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:748)

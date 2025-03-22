@@ -1,0 +1,23 @@
+2025/03/19-16:03:28.871 31050 Reusing MANIFEST /home/roos/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/03/19-16:03:28.887 31050 Recovering log #132
+2025/03/19-16:03:28.887 31050 Reusing old log /home/roos/.config/discord/Local Storage/leveldb/000132.log 
+2025/03/19-16:37:23.936 31035 Level-0 table #136: started
+2025/03/19-16:37:24.009 31035 Level-0 table #136: 3508982 bytes OK
+2025/03/19-16:37:24.017 31035 Delete type=0 #132
+2025/03/19-16:37:24.020 31035 Compacting 4@0 + 2@1 files
+2025/03/19-16:37:24.047 31035 Generated table #137@0: 5 keys, 2498857 bytes
+2025/03/19-16:37:24.077 31035 Generated table #138@0: 47 keys, 1011042 bytes
+2025/03/19-16:37:24.077 31035 Compacted 4@0 + 2@1 files => 3509899 bytes
+2025/03/19-16:37:24.083 31035 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/03/19-16:37:24.083 31035 Delete type=2 #127
+2025/03/19-16:37:24.083 31035 Delete type=2 #131
+2025/03/19-16:37:24.083 31035 Delete type=2 #126
+2025/03/19-16:37:24.083 31035 Delete type=2 #129
+2025/03/19-16:37:24.083 31035 Delete type=2 #133
+2025/03/19-16:37:24.084 31035 Delete type=2 #136
+2025/03/20-17:44:19.649 31035 Level-0 table #140: started
+2025/03/20-17:44:19.697 31035 Level-0 table #140: 34932 bytes OK
+2025/03/20-17:44:19.704 31035 Delete type=0 #135
+2025/03/20-17:49:29.543 31035 Level-0 table #142: started
+2025/03/20-17:49:29.562 31035 Level-0 table #142: 982195 bytes OK
+2025/03/20-17:49:29.568 31035 Delete type=0 #139

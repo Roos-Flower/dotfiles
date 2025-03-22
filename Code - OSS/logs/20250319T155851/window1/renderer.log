@@ -1,0 +1,3 @@
+2025-03-19 15:58:52.964 [info] Started local extension host with pid 199468.
+2025-03-19 15:58:55.471 [error] Error while getting the latest version for the extension redhat.java. Cannot read properties of undefined (reading 'replace')
+2025-03-19 15:58:56.240 [info] [perf] Render performance baseline is 135ms

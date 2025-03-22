@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=BloonsTD6
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/960090
+Icon=/home/roos/.config/steamtinkerlaunch/games/header/960090.jpg
+Terminal=false
+Type=Application
+Categories=Game;

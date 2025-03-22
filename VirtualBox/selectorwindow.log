@@ -1,0 +1,47 @@
+00:00:00.427695 VirtualBox GUI VM Selector Window 7.1.6 r167084 linux.amd64 (Jan 27 2025 07:52:25) release log
+00:00:00.427698 Log opened 2025-02-13T12:56:03.577061000Z
+00:00:00.427699 Build Type: release
+00:00:00.427702 OS Product: Linux
+00:00:00.427705 OS Release: 6.13.2-arch1-1
+00:00:00.427706 OS Version: #1 SMP PREEMPT_DYNAMIC Sat, 08 Feb 2025 18:54:55 +0000
+00:00:00.427734 DMI Product Name: 83DR
+00:00:00.427743 DMI Product Version: IdeaPad 5 2-in-1 14AHP9
+00:00:00.427750 Firmware type: UEFI
+00:00:00.427859 Secure Boot: Disabled
+00:00:00.427905 Host RAM: 13733MB (13.4GB) total, 12841MB (12.5GB) available
+00:00:00.427909 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.427911 Process ID: 2909
+00:00:00.427913 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.427940 Qt version: 6.8.2
+00:00:00.429304 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.442556 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.031812 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.295178 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 955x597 x 800x800
+00:30:57.414215 GUI: UIMediumEnumerator: Medium with key={{5f7c1ddb-0902-4c13-bdb1-db42b76d024d}} created
+00:30:57.574293 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:25.923044 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:32:33.065073 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:45:04.917806 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:47:21.495318 GUI: UIMediumEnumerator: Medium with key={{cced4ee5-ecbb-4cb7-a576-b95e00064c04}} created
+00:47:21.509780 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:47:29.513877 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:47:29.569149 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:47:29.635767 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:48:28.248126 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:48:30.150752 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:01.285329 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:01.719063 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:01.791230 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:03.971376 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:04.939016 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:05.056742 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:14.311218 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:14.757052 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:14.811976 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:17.646034 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:17.893578 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:49:18.075690 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:52:23.463773 GUI: UIMediumEnumerator: Medium with key={{d57ff794-524c-485e-80c6-fd2ad8ed4b6e}} created
+00:52:23.593599 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:52:28.382476 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:52:30.273641 GUI: UIMediumEnumerator: Medium-enumeration finished!

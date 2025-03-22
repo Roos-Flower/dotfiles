@@ -1,0 +1,8 @@
+2025-01-14 00:11:25.069 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-14 00:11:25.069 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-14 00:11:25.070 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-14 00:11:25.382 [info] Started local extension host with pid 2638.
+2025-01-14 00:11:26.168 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-01-14 00:11:27.889 [error] [network] #1: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-01-14 00:11:27.890 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-01-14 00:11:28.203 [info] [perf] Render performance baseline is 144ms

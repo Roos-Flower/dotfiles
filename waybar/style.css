@@ -1,0 +1,499 @@
+@import "../colors.css"; /* import color file, change there to change the colors of waybar */
+@import "animations.css"; /* all animations are stored here */
+
+.module {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+window#waybar {
+  background-color: transparent;
+  /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+  color: #ffffff;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+/* menu, */
+/* tooltip { */
+/*     border-radius: 8px; */
+/*     padding: 2px; */
+/*     border: 1px solid lighter(@active); */
+/*     background: alpha(@background, 0.6); */
+
+/*     color: lighter(@active); */
+/* } */
+
+/* menu label, */
+/* tooltip label { */
+/*     font-size: 14px; */
+/*     color: lighter(@active); */
+/* } */
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+#workspaces {
+  font-size: 30px;
+}
+
+#custom-pacman {
+  border: 2px solid @yellow;
+  background-color: @base;
+  font-size: 25px;
+  color: @yellow;
+  min-width: 40px;
+  padding-right: 4px;
+  animation-name: Hover-rev-pac;
+  animation-duration: 0.25s;
+}
+#custom-pacman:hover {
+  animation-name: Hover-pac;
+  animation-duration: 0.25s;
+  background-color: @yellow;
+  color: @base;
+}
+
+#custom-wifi {
+  border: 2px solid @teal;
+  background-color: @base;
+  font-size: 25px;
+  color: @teal;
+  padding-right: 8px;
+  min-width: 30px;
+  animation-name: Hover-rev-wifi;
+  animation-duration: 0.25s;
+}
+#custom-wifi:hover {
+  animation-name: Hover-wifi;
+  animation-duration: 0.25s;
+  background-color: @teal;
+  color: @base;
+}
+
+#custom-arch {
+  font-size: 30px;
+  min-width: 40px;
+  padding-right: 7px;
+  background-color: @base;
+  color: @rosewater;
+  border: 2px solid @rosewater;
+  animation-name: Hover-rev-arch;
+  animation-duration: 0.25s;
+}
+
+#custom-arch:hover {
+  background-color: @rosewater;
+  color: @base;
+  animation-name: Hover-arch;
+  animation-duration: 0.25s;
+}
+
+#custom-bluetooth {
+  font-size: 25px;
+  padding-bottom: 2px;
+  min-width: 40px;
+  border: 2px solid @blue;
+  background-color: @base;
+  color: @blue;
+  animation-name: Hover-rev-bt;
+  animation-duration: 0.25s;
+}
+
+#custom-bluetooth:hover {
+  animation-name: Hover-bt;
+  animation-duration: 0.25s;
+  background-color: @blue;
+  color: @base;
+}
+
+#custom-notification {
+  font-size: 22px;
+  padding-right: 8px;
+  padding-top: 2px;
+  min-width: 30px;
+  background-color: @base;
+  border: 2px solid @lavender;
+  color: @lavender;
+  animation-name: Hover-rev-nc;
+  animation-duration: 0.25s;
+}
+
+#custom-notification:hover {
+  animation-name: Hover-nc;
+  animation-duration: 0.25s;
+  background-color: @lavender;
+  color: @base;
+}
+
+window#waybar.termite {
+  background-color: #3f3f3f;
+}
+
+window#waybar.chromium {
+  background-color: #000000;
+  border: none;
+}
+
+button {
+  /* Use box-shadow instead of border so the text isn't offset */
+  box-shadow: inset 0 -3px transparent;
+  /* Avoid rounded borders under each button name */
+  border: none;
+  border-radius: 12px;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+  background: inherit;
+  /* box-shadow: inset 0 -3px #ffffff; */
+}
+
+/* you can set a style on hover for any module like this */
+#workspaces button {
+  padding: 0 5px;
+  margin-right: 20px;
+  background-color: @base;
+  color: @red;
+  border: 2px solid @red;
+  padding-left: 13px;
+}
+
+#workspaces button.active {
+  background-color: @base;
+  color: @pink;
+  border: 2px solid @pink;
+}
+
+#workspaces button:hover {
+  background-color: @red;
+  color: @base;
+}
+
+#workspaces button.active:hover {
+  background-color: @pink;
+  color: @base;
+}
+
+/* #workspaces button.focused { */
+/*     background-color: #64727D; */
+/*     box-shadow: inset 0 -3px #ffffff; */
+/* } */
+
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+#mode {
+  background-color: #64727d;
+  /* box-shadow: inset 0 -3px #ffffff; */
+}
+
+#clock,
+#battery,
+#bluetooth,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+  padding: 0 10px;
+  color: #ffffff;
+}
+
+#window,
+#workspaces {
+  margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#pulseaudio {
+  font-size: 25px;
+  border: 2px solid @peach;
+  background-color: @base;
+  color: @peach;
+  padding-right: 25px;
+  animation-name: Hover-rev-pulse;
+  animation-duration: 0.25s;
+}
+
+#pulseaudio:hover {
+  background-color: @peach;
+  color: @base;
+  animation-name: Hover-pulse;
+  animation-duration: 0.25s;
+}
+
+/* #pulseaudio.bluetooth { */
+/*     font-size: 25px; */
+/*     border: 2px solid @peach; */
+/*     background-color: @base; */
+/*     color: @peach; */
+/* } */
+
+#clock {
+  font-size: 15px;
+  min-width: 40px;
+  background-color: @base;
+  border: 2px solid @mauve;
+  color: @mauve;
+  animation-name: Hover-rev-clock;
+  animation-duration: 0.25s;
+}
+
+#clock:hover {
+  animation-name: Hover-clock;
+  animation-duration: 0.25s;
+  background-color: @mauve;
+  color: @base;
+}
+
+#battery {
+  background-color: @base;
+  font-size: 15px;
+  color: @green;
+  border: 2px solid @green;
+  animation-name: Hover-rev-bat;
+  animation-duration: 0.25s;
+}
+
+#battery:hover {
+  animation-name: Hover-bat;
+  animation-duration: 0.25s;
+  background-color: @green;
+  color: @base;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: @base;
+  background-color: @green;
+}
+
+@keyframes blink {
+  to {
+    background-color: @red;
+    color: @base;
+  }
+}
+
+/* Using steps() instead of linear as a timing function to limit cpu usage */
+#battery.critical:not(.charging) {
+  background-color: @base;
+  border-color: @red;
+  color: @red;
+  animation-name: blink;
+  animation-duration: 0.75s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#power-profiles-daemon {
+  padding-right: 15px;
+}
+
+#power-profiles-daemon.performance {
+  background-color: #f53c3c;
+  color: #ffffff;
+}
+
+#power-profiles-daemon.balanced {
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+#power-profiles-daemon.power-saver {
+  background-color: #2ecc71;
+  color: #000000;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#cpu {
+  background-color: #2ecc71;
+  color: #000000;
+}
+
+#memory {
+  background-color: #9b59b6;
+}
+
+#disk {
+  background-color: #964b00;
+}
+
+#backlight {
+  background-color: #90b1b1;
+}
+
+#network {
+  background-color: #2980b9;
+}
+
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#wireplumber {
+  background-color: #fff0f5;
+  /* color: #000000; */
+}
+
+#wireplumber.muted {
+  background-color: #f53c3c;
+}
+
+#custom-media {
+  background-color: #66cc99;
+  color: #2a5c45;
+  min-width: 100px;
+}
+
+#custom-media.custom-spotify {
+  background-color: #66cc99;
+}
+
+#custom-media.custom-vlc {
+  background-color: #ffa000;
+}
+
+#temperature {
+  background-color: #f0932b;
+}
+
+#temperature.critical {
+  background-color: #eb4d4b;
+}
+
+#tray {
+  /* margin-right: -50px; */
+  background-color: @base;
+  border: 2px solid #94e2d5;
+  color: #94e2d5;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
+}
+
+#tray item * {
+  color: @teal;
+}
+
+#idle_inhibitor {
+  background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+  background-color: #ecf0f1;
+  color: #2d3436;
+}
+
+#mpd {
+  background-color: #66cc99;
+  color: #2a5c45;
+}
+
+#mpd.disconnected {
+  background-color: #f53c3c;
+}
+
+#mpd.stopped {
+  background-color: #90b1b1;
+}
+
+#mpd.paused {
+  background-color: #51a37a;
+}
+
+#language {
+  background: #00b093;
+  color: #740864;
+  padding: 0 5px;
+  margin: 0 5px;
+  min-width: 16px;
+}
+
+#keyboard-state {
+  background: #97e1ad;
+  color: #000000;
+  padding: 0 0px;
+  margin: 0 5px;
+  min-width: 16px;
+}
+
+#keyboard-state > label {
+  padding: 0 5px;
+}
+
+#keyboard-state > label.locked {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad.empty {
+  background-color: transparent;
+}
+
+#privacy {
+  padding: 0;
+}
+
+#privacy-item {
+  padding: 0 5px;
+  color: white;
+}
+
+#privacy-item.screenshare {
+  background-color: #cf5700;
+}
+
+#privacy-item.audio-in {
+  background-color: #1ca000;
+}
+
+#privacy-item.audio-out {
+  background-color: #0069d4;
+}

@@ -1,0 +1,134 @@
+[2025-02-08 00:17:17.994] [info]  Server init() port number is 
+[2025-02-08 00:17:17.996] [info]  File does not exist.
+[2025-02-08 00:17:17.997] [info]  Fail to retrieve port number from file.
+[2025-02-08 00:17:19.000] [info]  Server init() port number is 
+[2025-02-08 00:17:19.000] [info]  File does not exist.
+[2025-02-08 00:17:19.001] [info]  Fail to retrieve port number from file.
+[2025-02-08 00:17:20.003] [info]  Server init() port number is 
+[2025-02-08 00:17:20.003] [info]  File does not exist.
+[2025-02-08 00:17:20.003] [info]  Fail to retrieve port number from file.
+[2025-02-08 00:17:21.006] [info]  initWebSocket port is 
+[2025-02-08 00:17:23.537] [info]  WindowManager handlePossibleProtocolLauncherArgs argv=["/opt/forticlient/gui/FortiClient-linux-x64/FortiClient"]
+[2025-02-08 00:17:23.538] [info]  WindowManager handleCreateMainWindow
+[2025-02-08 00:17:23.546] [info]  MAIN MainWindow - createWindow Platform detected: fedora
+[2025-02-08 00:17:23.562] [info]  web-contents-created contents.id=1
+[2025-02-08 00:17:23.569] [info]  Saml - init
+[2025-02-08 00:17:23.569] [info]  Saml - listenSamlLoginRequest
+[2025-02-08 00:17:23.570] [info]  Server init() port number is 
+[2025-02-08 00:17:23.570] [info]  Fail to retrieve port number from file.
+[2025-02-08 00:17:24.571] [info]  Server init() port number is 39955
+[2025-02-08 00:17:24.777] [info]  compliance configDir=/home/roos/.config/FortiClient/config
+[2025-02-08 00:17:24.779] [info]  MAIN did-finish-load
+[2025-02-08 00:17:24.780] [info]  MAIN ready-to-show
+[2025-02-08 00:17:29.083] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:17:29.154] [info]  IPC_RENDERER_REQUEST.LOADED
+[2025-02-08 00:17:29.154] [info]  WindowManager handleWindowLoaded
+[2025-02-08 00:17:29.655] [info]  WindowManager handlePossibleProtocolLauncherArgs argv=["/opt/forticlient/gui/FortiClient-linux-x64/FortiClient"]
+[2025-02-08 00:17:29.656] [info]  WindowManager handleCreateMainWindow
+[2025-02-08 00:17:29.931] [debug] Receive websocket type=FCT_UPDATE_TASK_DONE
+[2025-02-08 00:17:34.578] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:17:34.578] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:17:34.579] [debug] this.user is updated
+[2025-02-08 00:17:34.633] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:17:34.636] [info]  EpctrlStatusChange: Updating view of avatar-settings
+[2025-02-08 00:17:34.827] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:17:51.742] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:17:56.576] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:18:05.093] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:18:05.450] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:18:07.038] [info]  IPC_RENDERER_REQUEST.UNLOCK_FORTICLIENT
+[2025-02-08 00:18:11.665] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:18:15.253] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:18:16.906] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:18:16.906] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:18:16.906] [debug] this.user is updated
+[2025-02-08 00:18:16.919] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:18:16.920] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:18:16.982] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:18:16.982] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:18:16.983] [debug] this.user is updated
+[2025-02-08 00:18:16.992] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:18:16.992] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:18:17.178] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:18:17.225] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:18:25.954] [info]  WindowManager WindowManager - handleWindowClosed
+[2025-02-08 00:18:25.955] [info]  WindowManager WindowManager - all windows are destroyed. quit the app.
+[2025-02-08 00:18:42.977] [info]  Server init() port number is 
+[2025-02-08 00:18:42.979] [info]  Fail to retrieve port number from file.
+[2025-02-08 00:18:43.982] [info]  Server init() port number is 39955
+[2025-02-08 00:18:43.983] [info]  initWebSocket port is 39955
+[2025-02-08 00:18:44.009] [info]  WindowManager handlePossibleProtocolLauncherArgs argv=["/opt/forticlient/gui/FortiClient-linux-x64/FortiClient"]
+[2025-02-08 00:18:44.010] [info]  WindowManager handleCreateMainWindow
+[2025-02-08 00:18:44.018] [info]  MAIN MainWindow - createWindow Platform detected: fedora
+[2025-02-08 00:18:44.031] [info]  web-contents-created contents.id=1
+[2025-02-08 00:18:44.036] [info]  Saml - init
+[2025-02-08 00:18:44.036] [info]  Saml - listenSamlLoginRequest
+[2025-02-08 00:18:44.038] [info]  Server init() port number is 39955
+[2025-02-08 00:18:44.262] [info]  compliance configDir=/home/roos/.config/FortiClient/config
+[2025-02-08 00:18:44.264] [info]  MAIN did-finish-load
+[2025-02-08 00:18:44.265] [info]  MAIN ready-to-show
+[2025-02-08 00:18:45.059] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:18:45.138] [info]  IPC_RENDERER_REQUEST.LOADED
+[2025-02-08 00:18:45.138] [info]  WindowManager handleWindowLoaded
+[2025-02-08 00:18:45.640] [info]  WindowManager handlePossibleProtocolLauncherArgs argv=["/opt/forticlient/gui/FortiClient-linux-x64/FortiClient"]
+[2025-02-08 00:18:45.640] [info]  WindowManager handleCreateMainWindow
+[2025-02-08 00:18:46.102] [debug] Receive websocket type=FCT_UPDATE_TASK_DONE
+[2025-02-08 00:18:55.745] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:18:57.497] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:19:03.570] [info]  IPC_RENDERER_REQUEST.UNLOCK_FORTICLIENT
+[2025-02-08 00:19:06.029] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:19:17.525] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:19:20.848] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:19:20.848] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:19:20.849] [debug] this.user is updated
+[2025-02-08 00:19:20.860] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:19:20.861] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:19:20.926] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:19:20.926] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:19:20.926] [debug] this.user is updated
+[2025-02-08 00:19:20.939] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:19:20.940] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:19:21.099] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:19:21.197] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:19:28.520] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:19:53.590] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:19:53.591] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:19:53.591] [debug] this.user is updated
+[2025-02-08 00:19:53.603] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:19:53.604] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:19:53.709] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:19:53.709] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:19:53.710] [debug] this.user is updated
+[2025-02-08 00:19:53.722] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:19:53.723] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:19:53.871] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:19:53.955] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:20:16.350] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:20:41.420] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:20:41.421] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:20:41.421] [debug] this.user is updated
+[2025-02-08 00:20:41.433] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:20:41.434] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:20:41.506] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:20:41.507] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:20:41.507] [debug] this.user is updated
+[2025-02-08 00:20:41.519] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:20:41.520] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:20:41.665] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:20:41.726] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:20:52.952] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=
+[2025-02-08 00:20:58.350] [info]  doRegisterWithVdom ip=vpn.lu.se vdom=Default
+[2025-02-08 00:21:23.455] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:21:23.456] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:21:23.456] [debug] this.user is updated
+[2025-02-08 00:21:23.468] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:21:23.468] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:21:23.539] [debug] Receive websocket type=FCT_AVATAR_USERINFO
+[2025-02-08 00:21:23.540] [debug] Receive websocket type=FCT_AVATAR_USERINFO, data.msg.info is not empty
+[2025-02-08 00:21:23.540] [debug] this.user is updated
+[2025-02-08 00:21:23.551] [debug] Receive websocket type=FCT_EC_STATUS_CHANGE
+[2025-02-08 00:21:23.552] [info]  EpctrlStatusChange: Updating view of compliance
+[2025-02-08 00:21:23.707] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:21:23.767] [info]  GetVisibleTabs - visibleTabs={"AVTabIsHidden":true,"VPNTabIsHidden":true,"VULNTabIsHidden":true,"ComplianceTabIsHidden":false,"ZtnaIsHidden":true,"WfTabIsHidden":true,"SandboxTabIsHidden":true,"AETabIsHidden":true,"FwTabIsHidden":true,"EdrTabIsHidden":true}
+[2025-02-08 00:21:35.181] [info]  WindowManager WindowManager - handleWindowClosed
+[2025-02-08 00:21:35.182] [info]  WindowManager WindowManager - all windows are destroyed. quit the app.

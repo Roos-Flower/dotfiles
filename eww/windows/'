@@ -1,0 +1,363 @@
+.holder {
+  background-color: #11111b;
+  border: 2px solid #f2cdcd;
+  border-radius: 12px;
+  margin-top: 10px;
+  // padding-top: 1060px;
+}
+
+.bunny-cage {
+  background-color: #1e1e2e;
+  border-radius: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  // margin-bottom: 885px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.bunny {
+  font-weight: bold;
+  color: #cdd6f4;
+  font-family: "monospace";
+  font-size: 45px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.buttons {
+  border-radius: 12px;
+  background-color: #1e1e2e;
+  padding: 10px;
+  // padding: 20px 200px 20px 20px;
+  // margin-bottom: 885px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bt1 {
+  // margin: 10px;
+  // padding: 10px;
+  background-color: #1e1e2e;
+  border: 3px solid #f38ba8;
+  color: #f38ba8;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  animation-name: Hover-rev-pwr;
+  animation-duration: 0.2s;
+}
+
+.bt1:hover {
+  background-color: #f38ba8;
+  color: #1e1e2e;
+  animation-name: Hover-pwr;
+  animation-duration: 0.2s;
+}
+
+.bt2 {
+  // margin: 10px;
+  // padding: 10px;
+  background-color: #1e1e2e;
+  border: 3px solid #fab387;
+  color: #fab387;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  animation-name: Hover-rev-rstr;
+  animation-duration: 0.2s;
+}
+
+.bt2:hover {
+  background-color: #fab387;
+  color: #1e1e2e;
+  animation-name: Hover-rstr;
+  animation-duration: 0.2s;
+}
+
+.bt3 {
+  // margin: 10px;
+  // padding: 10px;
+  background-color: #1e1e2e;
+  border: 3px solid #a6e3a1;
+  color: #a6e3a1;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  animation-name: Hover-rev-sleep;
+  animation-duration: 0.2s;
+}
+
+.bt3:hover {
+  background-color: #a6e3a1;
+  color: #1e1e2e;
+  animation-name: Hover-sleep;
+  animation-duration: 0.2s;
+}
+
+.bt4 {
+  // margin: 10px;
+  // padding: 10px;
+  background-color: #1e1e2e;
+  border: 3px solid #74c7ec;
+  color: #74c7ec;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 22px;
+  animation-name: Hover-rev-lock;
+  animation-duration: 0.2s;
+}
+
+.bt4:hover {
+  background-color: #74c7ec;
+  color: #1e1e2e;
+  animation-name: Hover-lock;
+  animation-duration: 0.2s;
+}
+
+.buttonArrayOuter {
+  background-color: #1e1e2e;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.disc {
+  background-color: #1e1e2e;
+  border-radius: 12px;
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.disctext {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: -5px;
+  // margin-right: 260px;
+  font-family: Roboto;
+  color: #89b4fa;
+  margin-bottom: 10px;
+}
+
+.disclogo {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 28px;
+  color: #89b4fa;
+}
+
+.discslider > trough {
+  min-width: 340px;
+  // background-color: white;
+  margin-top: 10px;
+  margin-left: 0px;
+  color: white;
+  padding: 7px;
+  padding-left: 0;
+  border-radius: 50px;
+  background-color: #313244;
+}
+
+.discslider > trough > progress {
+  background-color: #89b4fa;
+  border-radius: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.nightlight {
+  border: 3px solid #cdd6f4;
+  color: #cdd6f4;
+  font-size: 28px;
+  border-radius: 12px;
+  // margin-left: 20px;
+  // margin-right: 20px;
+  // margin-top: 10px;
+  // margin-bottom: 10px;
+  animation-name: Hover-btn-rev;
+  animation-duration: 0.2s;
+}
+
+.sysmon {
+  color: #cdd6f4;
+  font-size: 24px;
+  border: 3px solid #cdd6f4;
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-name: Hover-btn-rev;
+  animation-duration: 0.2s;
+}
+
+.screenshot {
+  color: #cdd6f4;
+  font-size: 24px;
+  border: 3px solid #cdd6f4;
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-name: Hover-btn-rev;
+  animation-duration: 0.2s;
+}
+
+.filemanager {
+  color: #cdd6f4;
+  font-size: 25px;
+  border: 3px solid #cdd6f4;
+  border-radius: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-name: Hover-btn-rev;
+  animation-duration: 0.2s;
+}
+
+.filemanager:hover {
+  background-color: #cdd6f4;
+  color: #1e1e2e;
+  animation-name: Hover-btn;
+  animation-duration: 0.2s;
+}
+
+.screenshot:hover {
+  background-color: #cdd6f4;
+  color: #1e1e2e;
+  animation-name: Hover-btn;
+  animation-duration: 0.2s;
+}
+
+.nightlight:hover {
+  background-color: #cdd6f4;
+  color: #1e1e2e;
+  animation-name: Hover-btn;
+  animation-duration: 0.2s;
+}
+
+.network {
+  background-color: #1e1e2e;
+  border-radius: 12px;
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.sysmon:hover {
+  background-color: #cdd6f4;
+  color: #1e1e2e;
+  animation-name: Hover-btn;
+  animation-duration: 0.2s;
+}
+@keyframes Hover-btn {
+  from {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+  }
+  to {
+    background-color: #cdd6f4;
+    color: #1e1e2e;
+  }
+}
+@keyframes Hover-btn-rev {
+  to {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+  }
+  from {
+    background-color: #cdd6f4;
+    color: #1e1e2e;
+  }
+}
+
+@keyframes Hover-pwr {
+  from {
+    background-color: #1e1e2e;
+    color: #f38ba8;
+  }
+  to {
+    background-color: #f38ba8;
+    color: #1e1e2e;
+  }
+}
+@keyframes Hover-rev-pwr {
+  to {
+    background-color: #1e1e2e;
+    color: #f38ba8;
+  }
+  from {
+    background-color: #f38ba8;
+    color: #1e1e2e;
+  }
+}
+
+@keyframes Hover-rstr {
+  from {
+    background-color: #1e1e2e;
+    color: #fab387;
+  }
+  to {
+    background-color: #fab387;
+    color: #1e1e2e;
+  }
+}
+@keyframes Hover-rev-rstr {
+  to {
+    background-color: #1e1e2e;
+    color: #fab387;
+  }
+  from {
+    background-color: #fab387;
+    color: #1e1e2e;
+  }
+}
+
+@keyframes Hover-lock {
+  from {
+    background-color: #1e1e2e;
+    color: #74c7ec;
+  }
+  to {
+    background-color: #74c7ec;
+    color: #1e1e2e;
+  }
+}
+@keyframes Hover-rev-lock {
+  to {
+    background-color: #1e1e2e;
+    color: #74c7ec;
+  }
+  from {
+    background-color: #74c7ec;
+    color: #1e1e2e;
+  }
+}
+
+@keyframes Hover-sleep {
+  from {
+    background-color: #1e1e2e;
+    color: #a6e3a1;
+  }
+  to {
+    background-color: #a6e3a1;
+    color: #1e1e2e;
+  }
+}
+@keyframes Hover-rev-sleep {
+  to {
+    background-color: #1e1e2e;
+    color: #a6e3a1;
+  }
+  from {
+    background-color: #a6e3a1;
+    color: #1e1e2e;
+  }
+}

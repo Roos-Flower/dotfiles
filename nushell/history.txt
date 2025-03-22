@@ -1,0 +1,190 @@
+ls
+exit
+ls
+exit
+quit
+exit
+ls
+cd bin
+ls
+cd ..
+cd src
+ls
+exit
+ls
+exit
+ls
+exit
+ls | grid --color
+(ls | sort-by type name -i | grid -c)
+grid
+ls --icons
+(ls | sort-by type name -i | grid --icons)
+exit
+eza
+eza --grid
+eza | grid
+exit
+nu
+ls
+eza
+eza --json
+eza --long
+eza --long | grid
+eza --tree
+eza --tree | grid
+eza --tree --icons
+eza --json
+ls
+exit
+> [[name patch]; [Cargo.toml false] [README.md true] [SECURITY.md false]] | grid --icons --color
+[[name patch]; [Cargo.toml false] [README.md true] [SECURITY.md false]] | grid --icons --color
+ls --color
+ls | grid --color --icons
+cd ..
+ls | grid --color --icons
+ls
+eza --icons
+ls --mime-type 
+ls --icons
+ls
+eza --icons
+ls|grid
+ls --icons |grid
+ls --icons | grid
+ls | grid --color --icons
+ls | grid --color --icons | ls
+> [[name patch]; [0.1.0 false] [0.1.1 true] [0.2.0 false]] | grid<\n>0.1.0 │ 0.1.1 │ 0.2.0
+[[name patch]; [0.1.0 false] [0.1.1 true] [0.2.0 false]] | grid<\n>0.1.0 │ 0.1.1 │ 0.2.0
+[[name patch]; [0.1.0 false] [0.1.1 true] [0.2.0 false]] | grid 0.1.0 │ 0.1.1 │ 0.2.0
+[[name patch]; [0.1.0 false] [0.1.1 true] [0.2.0 false]] | grid0.1.0 │ 0.1.1 │ 0.2.0
+[[name patch]; [0.1.0 false] [0.1.1 true] [0.2.0 false]] | grid
+> [[name patch]; [Cargo.toml false] [README.md true] [SECURITY.md false]] | grid --icons --color
+[[name patch]; [Cargo.toml false] [README.md true] [SECURITY.md false]] | grid --icons --color
+(ls | sort-by type name -i | grid -c)
+ls | grid -c -w 3
+ls | grid -c -w 5
+ls | grid -c -w 10
+ls | grid -c 10 -w 10
+ls | grid -c -w 
+ls | grid -c -w 100
+ls | grid -c -w 1
+eza
+exit
+ls
+exiy
+exit
+ls
+ls | grid -ic
+ls -ic
+ls -il
+ls -l
+eza --across
+eza --acros-ics
+eza --acros ic
+eza --across -ic
+eza --across -i
+eza
+ls
+exit
+1*1
+math
+math 100*100
+math sum 100 100 100
+math --help
+math -1000000000
+math abs -1000000000
+math abs 1000000000
+math abs (-1000000000)
+100000000 | math abs
+-100000000 | math abs
+10*10
+10*10 | math
+10*10 | math abs
+10*10 | math sum
+1010 | math sum
+1010 | math
+1010 | math abs 
+exit
+ls
+exit
+ls | grid -ic
+exit
+df /
+df
+df /
+exit
+ls
+exit
+ls -a
+exit
+ls
+exa
+exa --icons
+exit
+ls
+exit
+ls
+exit
+cd ..
+ls
+exit
+source ~/.config/nushell/config.nu
+exit
+ls
+cd .config
+ls
+eza
+cd nushell/
+ls
+nvid config.nu
+neovide config.nu
+ls
+neovide config.nu &
+neovide & config.nu 
+neovide &
+neovide config.nu
+oh-my-posh init nu --config ~/.poshthemes/M365Princess.omp.json
+ls -a ~
+exit
+cd .config/nushell/
+ls
+neovide config.nu &
+neovide& config.nu
+neovide & config.nu
+exit
+neovide --fork .config/nushell/config.nu
+exit
+neovide --fork .config/nushell/config.nu
+ls
+cd .config/nushell/
+ls
+echo hey
+cd .config/nushell/
+cd ..
+cd
+bat .oh-my-posh.nu
+cd .config
+ls | grep oh
+ls
+eza
+bat ~/.oh-my-posh.nu
+cd
+cd .posh-themes
+bat ~/.oh-my-posh.nu
+cd .poshthemes
+bat ~/.oh-my-posh.nu
+mkdir .poshthemes
+cd .poshthemes
+bat ~/.oh-my-posh.nu
+nvid M365Princess.omp.json
+neovide --fork M365Princess.omp.json
+exit
+ls
+cd
+alias
+exit
+eeeeeee
+exit
+ls
+exit

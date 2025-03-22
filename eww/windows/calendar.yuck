@@ -1,0 +1,39 @@
+(defpoll day
+  :interval "1000s"
+  :initial 1
+  'date +%d')
+
+(defpoll month
+  :interval "1000s"
+  :initial 1
+  'date +%m')
+
+(defpoll year
+  :interval "1000s"
+  :initial 2025
+  'date +%Y')
+
+
+(defwindow calendar
+           :monitor 0
+           :geometry (geometry :x "1%"
+                               :y "20px"
+                               :anchor "top right")
+           :stacking "overlay"
+           :reserve (struts :distance "30px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+       (box :class "rev"
+                 ; :transition "slideleft"
+                 ; :reveal cal-open
+                 ; :height "10"
+                 ; :width "18"
+                 ; :duration "200ms"
+                 (calendar :class "cal"
+                           :day day 
+                           :month month
+                           :year year
+                           :show-week-numbers true
+                           :show-details true)
+      )
+)

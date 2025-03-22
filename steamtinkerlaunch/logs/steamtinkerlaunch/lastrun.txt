@@ -1,0 +1,6 @@
+RUNPROTON="/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton"
+RUNWINE="/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/files/bin/wine"
+PROTONVERSION="proton-9.0-4c"
+PREVAID="960090"
+PREVGAME="BloonsTD6"
+PREVABSGAMEEXEPATH="/home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe"

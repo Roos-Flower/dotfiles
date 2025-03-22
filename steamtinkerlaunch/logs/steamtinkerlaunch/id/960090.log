@@ -1,0 +1,272 @@
+Wed Feb  5 19:03:23 CET 2025 INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '960090'
+Wed Feb  5 19:03:23 CET 2025 INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/roos/.local/share/Steam/steamapps/compatdata/960090'
+Wed Feb  5 19:03:24 CET 2025 INFO - loadLangFile - Language from command line is 'english'
+Wed Feb  5 19:03:24 CET 2025 INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+Wed Feb  5 19:03:24 CET 2025 INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+Wed Feb  5 19:03:25 CET 2025 INFO - getCurrentCommandline - No Proton in command line arguments 'waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 19:03:25 CET 2025 INFO - saveOrgVars - Storing some original variables to restore them later
+ons  5 feb 2025 19:03:25 CET INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+ons  5 feb 2025 19:03:25 CET INFO - emptyVars - Set $PATH to '/home/roos/.bun/bin:/home/roos/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/roos/.local/share/coursier/bin:'
+ons  5 feb 2025 19:03:25 CET START - ######### Initializing Game Launch 960090 using SteamTinkerLaunch v14.0.20241228-1 #########
+ons  5 feb 2025 19:03:25 CET INFO - main - Starting with a clean log
+ons  5 feb 2025 19:03:25 CET INFO - main - Start creating default configs
+ons  5 feb 2025 19:03:25 CET INFO - createDefaultCfgs - START
+ons  5 feb 2025 19:03:25 CET INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+ons  5 feb 2025 19:03:25 CET INFO - loadLangFile - Language from command line is 'english'
+ons  5 feb 2025 19:03:25 CET INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+ons  5 feb 2025 19:03:25 CET INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+ons  5 feb 2025 19:03:25 CET INFO - loadLangFile - Loading language file from script directory '/home/roos/.local/share/steamtinkerlaunch/lang/english.txt'
+ons  5 feb 2025 19:03:25 CET INFO - loadLanguage - Loading STLLANG from '/home/roos/.config/steamtinkerlaunch/global.conf'
+ons  5 feb 2025 19:03:25 CET INFO - loadLanguage - STLLANG from '/home/roos/.config/steamtinkerlaunch/global.conf' is 'english'
+ons  5 feb 2025 19:03:25 CET INFO - createDefaultCfgs - setSteamPaths:
+ons  5 feb 2025 19:03:25 CET INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+ons  5 feb 2025 19:03:25 CET INFO - getGameOS - Starting game OS detection
+ons  5 feb 2025 19:03:25 CET INFO - getGameOS - Making some checks on '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe' to determine the OS version of the game
+ons  5 feb 2025 19:03:25 CET INFO - getGameOS - Looks like this is a Windows game!
+ons  5 feb 2025 19:03:25 CET INFO - setWin - 'BloonsTD6' determined to be a Windows Game
+ons  5 feb 2025 19:03:25 CET INFO - createDefaultCfgs - createProtonList:
+ons  5 feb 2025 19:03:25 CET INFO - createDefaultCfgs - createProtonList end
+ons  5 feb 2025 19:03:25 CET INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+ons  5 feb 2025 19:03:25 CET INFO - createDefaultCfgs - STOP
+ons  5 feb 2025 19:03:25 CET SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+ons  5 feb 2025 19:03:25 CET INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/roos/.local/share/Steam/steamapps:/home/roos/steam/steamapps'
+ons  5 feb 2025 19:03:25 CET INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper'
+ons  5 feb 2025 19:03:25 CET INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper'
+ons  5 feb 2025 19:03:25 CET INFO - main - Checking internal dependencies:
+ons  5 feb 2025 19:03:25 CET INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+ons  5 feb 2025 19:03:26 CET INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '14.1'
+ons  5 feb 2025 19:03:26 CET INFO - checkIntDeps - Yad is set correctly in the Global Config, nothing to do.
+ons  5 feb 2025 19:03:26 CET INFO - main - Initializing first Proton:
+ons  5 feb 2025 19:03:26 CET INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+ons  5 feb 2025 19:03:26 CET INFO - initFirstProton - Initializing Proton
+ons  5 feb 2025 19:03:26 CET INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/roos/.config/steamtinkerlaunch/default_template.conf' is 'proton-9.0-4c'
+ons  5 feb 2025 19:03:26 CET INFO - main - Initializing default window resolution
+ons  5 feb 2025 19:03:26 CET INFO - setInitWinXY - Using '1440x900' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+ons  5 feb 2025 19:03:26 CET INFO - main - Welcome to SteamTinkerLaunch
+ons  5 feb 2025 19:03:26 CET INFO - removeEmptyFiles - Removing empty files from '/home/roos/.config/steamtinkerlaunch/games/appinfo'
+ons  5 feb 2025 19:03:26 CET INFO - removeEmptyFiles - Removing empty files from '/home/roos/.config/steamtinkerlaunch/games/header'
+ons  5 feb 2025 19:03:26 CET INFO - main - Checking command line: incoming arguments 'waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+ons  5 feb 2025 19:03:26 CET INFO - main - Checking command line: first argument 'waitforexitandrun'
+ons  5 feb 2025 19:03:26 CET SKIP - getGameOS - ISGAME is already set to '2' - nothing to determine
+ons  5 feb 2025 19:03:26 CET INFO - setGameVars - No SLR is in launch option
+ons  5 feb 2025 19:03:26 CET INFO - linkLog - Set symlink from '/home/roos/.config/steamtinkerlaunch/logs/steamtinkerlaunch/id/960090.log' to '/home/roos/.config/steamtinkerlaunch/logs/steamtinkerlaunch/title/BloonsTD6.log'
+Wed Feb  5 07:03:26 PM CET 2025 START - ######### Game Launch: Bloons TD 6 (960090) #########
+Wed Feb  5 07:03:26 PM CET 2025 INFO - dlCheck - Downloading picture for game '960090'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - notiShow - Message 'Downloading '/home/roos/.config/steamtinkerlaunch/games/header/960090.jpg'' should go to StatusWindow
+Wed Feb  5 07:03:26 PM CET 2025 INFO - dlCheck - 'wget -q --show-progress https://steamcdn-a.akamaihd.net/steam/apps/960090/header.jpg -O /home/roos/.config/steamtinkerlaunch/games/header/960090.jpg'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - getGameName - Using 'GN' as Game Name: 'BloonsTD6'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - getGameName - Outgoing game name is 'BloonsTD6'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - writeDesktopFile - Creating '/home/roos/.config/steamtinkerlaunch/games/desktop/960090.desktop' for 'BloonsTD6' (960090)
+Wed Feb  5 07:03:26 PM CET 2025 INFO - prepareLaunch - Game launch args '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - prepareLaunch - Gamedir '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - prepareLaunch - Proton wineprefix '/home/roos/.local/share/Steam/steamapps/compatdata/960090/pfx'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - prepareLaunch -------------------
+Wed Feb  5 07:03:26 PM CET 2025 INFO - prepareLaunch - CreateGameCfg:
+Wed Feb  5 07:03:26 PM CET 2025 INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/roos/.config/steamtinkerlaunch/default_template.conf'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - getGameName - Using 'GN' as Game Name: 'BloonsTD6'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - getGameName - Outgoing game name is 'BloonsTD6'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - linkGameCfg - Set symlink from '/home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf' to '/home/roos/.config/steamtinkerlaunch/gamecfgs/title/BloonsTD6.conf'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - prepareLaunch - First LoadCfg: /home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf
+Wed Feb  5 07:03:26 PM CET 2025 INFO - loadCfg - '/home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf' START
+Wed Feb  5 07:03:26 PM CET 2025 INFO - loadCfg - Loading game config '/home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf'
+Wed Feb  5 07:03:26 PM CET 2025 INFO - migrateCfgOption - File '/home/roos/.config/steamtinkerlaunch/dxvk/960090.conf' does not exist - nothing to do
+Wed Feb  5 07:03:26 PM CET 2025 INFO - loadCfg - '/home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf' STOP
+Wed Feb  5 07:03:27 PM CET 2025 SKIP - autoBumpReShade - '5.9.1' is the latest version of 'ReShade' - not updating
+Wed Feb  5 07:03:27 PM CET 2025 INFO - prepareLaunch - Initial Proton version from the game config: 'proton-9.0-4c'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - prepareLaunch - Initializing internal Proton Vars for 'proton-9.0-4c' using setNewProtVars
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setNewProtVars - Setting new Proton Variables based on '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setNewProtVars - Continuing with RUNPROTON='/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setRunWineServer - Initiated from 'setNewProtVars'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setRunWineServer - Set the wine binary for proton in path '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setRunWineServer - to '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/files/bin/wine'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setRunWineServer - and wineserver to '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/files/bin/wineserver'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - prepareLaunch - OpenTrayIcon:
+Wed Feb  5 07:03:27 PM CET 2025 INFO - autoCollectionSettings - Searching collections for game '960090' in '/home/roos/.local/share/Steam/userdata/167079596/7/remote/sharedconfig.vdf'
+Wed Feb  5 07:03:27 PM CET 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Feb  5 07:03:27 PM CET 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directory as the ReShade installation directory
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setShaderDest - Determining Shader destination directory SHADDESTDIR
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setShaderDest - Using variable ABSGAMEEXEPATH for Shader destination directory '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setShaderDest - Using Shader destination directory '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setShaderDest - Shader destination directory is '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' for 'SHADDESTDIR'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - openTrayIcon - Opening trayIcon:
+Wed Feb  5 07:03:27 PM CET 2025 INFO - prepareLaunch - sortGameArgs:
+Wed Feb  5 07:03:27 PM CET 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Feb  5 07:03:27 PM CET 2025 INFO - prepareLaunch - AskSettings:
+Wed Feb  5 07:03:27 PM CET 2025 INFO - askSettings - Using game specific requester timeout '2'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - askSettings - Opening Requester with timeout '2'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - getGameTextFiles - Searching for at least one editable textfile in '/home/roos/.local/share/Steam/steamapps/compatdata/960090/pfx/drive_c/users/steamuser'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - updateConfigEntry - 'HEXAID' option missing in config '960090.conf' - adding a new line
+Wed Feb  5 07:03:27 PM CET 2025 INFO - getAppInfoData - Retrieving data for 'name' from '/home/roos/.config/steamtinkerlaunch/games/appinfo/960090.bin'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - getRes - Detected screen resolution '1920x1200'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - pollWinRes - Using harmless '--center' as variable 'GEOM', because there are multiple side-effects in yad if the string is empty
+Wed Feb  5 07:03:27 PM CET 2025 INFO - pollWinRes - Creating initial '/home/roos/.config/steamtinkerlaunch/guicfgs/1920x1200/960090/SteamTinkerLaunch-OpenSettings.conf' with unused default values
+Wed Feb  5 07:03:27 PM CET 2025 INFO - updateConfigEntry - 'COLCOUNT' option missing in config 'SteamTinkerLaunch-OpenSettings.conf' - adding a new line
+Wed Feb  5 07:03:27 PM CET 2025 INFO - updateWinRes - Starting resolution-poll for '/home/roos/.config/steamtinkerlaunch/guicfgs/1920x1200/960090/SteamTinkerLaunch-OpenSettings.conf' with incoming '1440x900'
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setShowPic - Determining game picture
+Wed Feb  5 07:03:27 PM CET 2025 INFO - setShowPic - Using '/home/roos/.config/steamtinkerlaunch/games/header/960090.jpg' as game picture
+Wed Feb  5 07:03:27 PM CET 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Feb  5 07:03:28 PM CET 2025 INFO - getSteamDeckCompatInfo - Fetching Steam Deck compatibility information for '960090' from Steam store endpoint with 'https://store.steampowered.com/saleaction/ajaxgetdeckappcompatibilityreport?nAppID=960090'
+Wed Feb  5 07:03:29 PM CET 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Feb  5 07:03:29 PM CET 2025 INFO - getSteamDeckCompatInfo - Successfully retrieved Steam Deck compatility information - Stored to '/home/roos/.config/steamtinkerlaunch/games/deckinfo/960090-deckcompatrating.json'
+Wed Feb  5 07:03:29 PM CET 2025 INFO - getSteamDeckCompatInfo - Successfully retrieved Steam Deck compatibility rating of 'Playable' for '960090'
+Wed Feb  5 07:03:29 PM CET 2025 INFO - getSteamDeckCompatInfo - Converting language tokens for Steam Deck compatibility criteria into SteamTinkerLaunch translated strings
+Wed Feb  5 07:03:29 PM CET 2025 INFO - getSteamDeckCompatInfo - Seems like no developer comments were left for this game - This is fine as most games don't have this, so skipping
+Wed Feb  5 07:03:29 PM CET 2025 INFO - getSteamDeckCompatInfo - Finished setting Steam Deck compatibility criteria strings
+Wed Feb  5 07:03:29 PM CET 2025 INFO - askSettings - Fetched Steam Deck compatibility info, will show on wait requester
+Wed Feb  5 07:03:29 PM CET 2025 INFO - askSettings - Steam Deck compatibility rating string is '<b>Steam Deck Compatibility:</b> Playable &#128712;'
+Wed Feb  5 07:03:29 PM CET 2025 INFO - askSettings - Preparing to show Wait Requester
+Wed Feb  5 07:03:30 PM CET 2025 INFO - updateWinRes - Waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Feb  5 07:03:31 PM CET 2025 SKIP - updateWinRes - Timeout waiting for Window 'SteamTinkerLaunch-OpenSettings'
+Wed Feb  5 07:03:32 PM CET 2025 INFO - askSettings - Wait Requester result was '70'
+Wed Feb  5 07:03:32 PM CET 2025 INFO - askSettings - TIMEOUT - Starting game without opening the Settings Menu
+Wed Feb  5 07:03:32 PM CET 2025 INFO - prepareLaunch - Second LoadCfg after menus: /home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf
+Wed Feb  5 07:03:33 PM CET 2025 INFO - loadCfg - '/home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf' START
+Wed Feb  5 07:03:33 PM CET 2025 INFO - loadCfg - Loading game config '/home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - migrateCfgOption - File '/home/roos/.config/steamtinkerlaunch/dxvk/960090.conf' does not exist - nothing to do
+Wed Feb  5 07:03:33 PM CET 2025 INFO - loadCfg - '/home/roos/.config/steamtinkerlaunch/gamecfgs/id/960090.conf' STOP
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setDxvkVars - Exporting variable 'DXVK_FRAME_RATE=none' to limit game framerate
+Wed Feb  5 07:03:33 PM CET 2025 INFO - autoCollectionSettings - Searching collections for game '960090' in '/home/roos/.local/share/Steam/userdata/167079596/7/remote/sharedconfig.vdf'
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - sortGameArgs again, in case something changed above:
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - sortGameArgs - Sorting the game arguments is disabled
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - symlinkSteamUser:
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - symlinkSteamUser - Symlinking steamuser is disabled - Checking if a symlink needs to be reverted
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - symlinkSteamUser - '/home/roos/.local/share/Steam/steamapps/compatdata/960090/pfx/drive_c/users/steamuser' is no symlink - nothing to do
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - restoreSteamUser:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - restoreSteamUser - Using configured value 'none' for RESTORESTEAMUSER
+Wed Feb  5 07:03:33 PM CET 2025 INFO - restoreSteamUser - Restoration of steamuser data is disabled with RESTORESTEAMUSER being 'none
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - prepareProton:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - setLinGameVals :
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckTweakLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkXliveless:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - chooseWinetricks:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - chooseWinetricks - Using systemwide winetricks with version '20250102'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkExtDeps:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkExtDeps done
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - setWineVars:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckWinetricksLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckWineCfgLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 WARN - checkWineCfgLaunch - Function was called but RUN_WINECFG ('0') was not enabled - skipping
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CustomRegs:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - TogWindows:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - StateSteamWebHelper:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - InstallReshade:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - installDepth3DReshade:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkReshade:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - autoCollectionSettings - Searching collections for game '960090' in '/home/roos/.local/share/Steam/userdata/167079596/7/remote/sharedconfig.vdf'
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - autoCollectionSettings - Global Config '' not found - skipping
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - autoCollectionSettings - Collections Directory Config '' not found - skipping
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directory as the ReShade installation directory
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' for 'SHADDESTDIR'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - useSpecialK:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directory as the ReShade installation directory
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' for 'SPEKDDIR'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - updateConfigEntry - Option 'SPEKDLLNAME' is updated with the new value 'auto' in config '960090.conf'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - configureGeoElf:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setFullGameExePath - User did not enable 'CUSTOMCMDRESHADE' - Using the game's exe directory as the ReShade installation directory
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setFullGameExePath - Using SHADDESTDIR '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' for 'GEOELFDDIR'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - ChooseShaders:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - UseNyrnaz:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - UseReplay:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckSBSVRLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkMO2:
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - checkMO2 - MO2MODE is 'disabled' -- Skipping checkMO2!
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - setNewRes:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - getRes - Detected screen resolution '1920x1200'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - customUserScriptStart:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - redirectSCDP:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - redirectSCDP - Using Proton version with minor version fix '9.0-4c' for compatdata directory name
+Wed Feb  5 07:03:33 PM CET 2025 INFO - redirectSCDP - Using regular compatdata '/home/roos/.local/share/Steam/steamapps/compatdata/960090'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkIGCSInjector:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkOpenVRFSR:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckFWS:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - loadCustomVars - Empty global config '/home/roos/.config/steamtinkerlaunch/gamecfgs/customvars/global-custom-vars.conf' for user defined custom variables not loaded
+Wed Feb  5 07:03:33 PM CET 2025 INFO - loadCustomVars - Empty game-specific config '/home/roos/.config/steamtinkerlaunch/gamecfgs/customvars/960090.conf' for user defined custom variables not loaded
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkPulse:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckStraceLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckNetMonLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkWDIB:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkSteamAppIDFile:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - checkSteamAppIDFile - Creating new control file '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6/check-steam_appid.txt'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - checkSteamAppIDFile - STEAMAPPIDFILE is disabled and there's no '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6/steam_appid.txt' - nothing to do
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - CheckCustomLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - checkUUUPatchLaunch:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - setCompatDataTitle:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setCompatDataTitle - Set symlink from '/home/roos/.local/share/Steam/steamapps/compatdata/960090' to '/home/roos/.config/steamtinkerlaunch/compatdata/BloonsTD6'
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - delayGameForCustomLaunch - Nothing to do
+Wed Feb  5 07:03:33 PM CET 2025 INFO - prepareLaunch - launchSteamGame:
+Wed Feb  5 07:03:33 PM CET 2025 INFO - launchSteamGame - Initial game command is 'waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setSLRReap - SLRPROTONVER is not defined, this is fine as regular game launches don't pass this
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setSLRReap - Falling back to RUNPROTON which is '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setSLRReap - No SLR provided from command line, attempting to fetch required SLR from current compatibility tool's 'toolmanifest.vdf'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setSLRReap - Now executing Pressure Vessel Funtime 2nd Edition Ver. 2.31
+Wed Feb  5 07:03:33 PM CET 2025 INFO - getRequireToolAppidPath - Found tool manifest at '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/toolmanifest.vdf', attempting to get 'require_tool_appid' value...
+Wed Feb  5 07:03:33 PM CET 2025 INFO - getRequireToolAppidPath - Got 'require_tool_appid' from '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/toolmanifest.vdf' ('1628350') - Returning path to tool
+Wed Feb  5 07:03:33 PM CET 2025 INFO - getGameDir - Found matching App Manifest file for presumed entered AppID '1628350' - Manifest file is '/home/roos/.local/share/Steam/steamapps/appmanifest_1628350.acf'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setSLRReap - '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper' exists - Path gotten from specified AppID looks valid
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setSLRReap - Building Steam Linux Runtime command for Proton game
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setSLRReap - Adding SLR '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun --' to the launch command
+Wed Feb  5 07:03:33 PM CET 2025 INFO - gameArgs - Game doesn't use any command line arguments
+Wed Feb  5 07:03:33 PM CET 2025 INFO - launchSteamGame - Preparing proton command
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setProtonCmd - Proton override enabled, so checking if it needs updated
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setRunProtonFromUseProton - Setting ORUNPROTON to '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton'
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - setRunProtonFromUseProton - RUNPROTON '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton' hasn't changed
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - fixSymlinks - Fixing Symlinks is not enabled
+Wed Feb  5 07:03:33 PM CET 2025 SKIP - unSymlink - Unsymlinking is not enabled
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setProtonCmd - Prepending Proton 'proton-9.0-4c' (='/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton') to the command line '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setProtonCmd - UPDATED game start command is: /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe
+Wed Feb  5 07:03:33 PM CET 2025 INFO - setProtonCmd - Starting 'Bloons TD 6 (960090)' with Proton: 'proton-9.0-4c'
+Wed Feb  5 07:03:34 PM CET 2025 INFO - launchSteamGame - Original incoming start command: 'waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:34 PM CET 2025 INFO - launchSteamGame - Final outgoing start command: '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:34 PM CET 2025 INFO - loadCfg - '/home/roos/.config/steamtinkerlaunch/meta/id/general/960090.conf' START
+Wed Feb  5 07:03:34 PM CET 2025 INFO - loadCfg - '/home/roos/.config/steamtinkerlaunch/meta/id/general/960090.conf' STOP
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - Getting the Game Window name:
+Wed Feb  5 07:03:34 PM CET 2025 INFO - getGameWindowName - No gamewindow name stored in metadata '/home/roos/.config/steamtinkerlaunch/meta/id/general/960090.conf' yet. Trying to find it now
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - Full start command is '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - Rebuilding STEAM_COMPAT_TOOL_PATHS variable:
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - Adding RUNPROTON '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)'
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - Adding '' because USESLR is enabled
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - Result: Set STEAM_COMPAT_TOOL_PATHS from '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper' to '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta):'
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - ## ORIGINAL INCOMING LAUNCH COMMAND: 'waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - ## STL LAUNCH COMMAND: '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/_v2-entry-point --verb=waitforexitandrun -- /home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/proton waitforexitandrun /home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe'
+Wed Feb  5 07:03:34 PM CET 2025 WAIT - getGameWindowPID - Sec 0/20 Game Window with pwd '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' not yet in front
+Wed Feb  5 07:03:34 PM CET 2025 INFO - startGame - ## GAMESTART HERE ###
+Wed Feb  5 07:03:34 PM CET 2025 INFO - restoreOrgVars - Restoring previously cleared environment variables
+Wed Feb  5 07:03:35 PM CET 2025 WAIT - getGameWindowPID - Sec 1/20 Game Window with pwd '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' not yet in front
+Wed Feb  5 07:03:36 PM CET 2025 WAIT - getGameWindowPID - Sec 2/20 Game Window with pwd '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' not yet in front
+Wed Feb  5 07:03:37 PM CET 2025 WAIT - getGameWindowPID - Sec 3/20 Game Window with pwd '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' not yet in front
+Wed Feb  5 07:03:38 PM CET 2025 WAIT - getGameWindowPID - Sec 4/20 Game Window with pwd '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6' not yet in front
+Wed Feb  5 07:03:39 PM CET 2025 WAIT - getGameWindowPID - Found PID '43605' for game executable 'GE' 'BloonsTD6' - leaving loop
+Wed Feb  5 07:03:39 PM CET 2025 INFO - getGameWindowPID - Found PID '43605' for running exe '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/files/bin/wine64-preloader'
+Wed Feb  5 07:03:39 PM CET 2025 INFO - getGameWindowName - Found valid game window PID '43605'
+Wed Feb  5 07:03:39 PM CET 2025 INFO - getGameWinXIDFromPid - Found a controllable windowid
+Wed Feb  5 07:03:39 PM CET 2025 INFO - getGameWinXIDFromPid Found window id 0x3a00001 for 'BloonsTD6' running with PID '43605'
+Wed Feb  5 07:03:39 PM CET 2025 INFO - getGameWindowName - Found game window XID '60817409'
+Wed Feb  5 07:03:39 PM CET 2025 INFO - storeGameWindowNameMeta - Found game window name 'BloonsTD6' - saving into metadata file '/home/roos/.config/steamtinkerlaunch/meta/id/general/960090.conf' for game ' (960090)'
+Wed Feb  5 07:03:39 PM CET 2025 INFO - updateConfigEntry - 'GAMEWINDOW' option missing in config '960090.conf' - adding a new line
+ons  5 feb 2025 19:04:24 CET INFO - startGame - Set symlink from '/home/roos/.config/steamtinkerlaunch/logs/gamelaunch/id/960090.log' to '/home/roos/.config/steamtinkerlaunch/logs/gamelaunch/title/BloonsTD6.log'
+ons  5 feb 2025 19:04:24 CET ERROR - startGame - Could not determine pid of '/home/roos/.local/share/Steam/steamapps/common/Proton 9.0 (Beta)/files/bin/wineserver'
+ons  5 feb 2025 19:04:24 CET INFO - startGame - ## GAMESTOP after '50' seconds playtime
+ons  5 feb 2025 19:04:24 CET STOP - ######### SteamTinkerLaunch v14.0.20241228-1 #########
+ons  5 feb 2025 19:04:24 CET STOP - ######### CLEANUP #########
+ons  5 feb 2025 19:04:24 CET INFO - closeSTL - closing STL
+ons  5 feb 2025 19:04:24 CET INFO - updateConfigEntry - Emptying 'CUSTOMCMD' for '/home/roos/.config/steamtinkerlaunch/default_template.conf'
+ons  5 feb 2025 19:04:24 CET INFO - closeSTL - Creating '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+ons  5 feb 2025 19:04:24 CET INFO - checkPlayTime - The game was not started via 'steamtinkerlaunch' but directly from Steam - skipping Crash Requester
+ons  5 feb 2025 19:04:24 CET INFO - closeSTL - Game 'Bloons TD 6 (960090)' exited - cleaning up custom processes if necessary
+ons  5 feb 2025 19:04:24 CET INFO - closeTrayIcon - Closing TrayIcon '42111'
+ons  5 feb 2025 19:04:25 CET INFO - closeSTL - Removing '/dev/shm/steamtinkerlaunch/steamtinkerlaunch-closing.tmp'
+ons  5 feb 2025 19:04:25 CET STOP - ######### closeSTL SteamTinkerLaunch v14.0.20241228-1 #########
+ons  5 feb 2025 19:04:25 CET INFO - writeLastRun - Recreating /home/roos/.config/steamtinkerlaunch/logs/steamtinkerlaunch/lastrun.txt
+ons  5 feb 2025 19:04:25 CET INFO - storeMetaData - Saving metadata for game 'BloonsTD6 (960090)'
+ons  5 feb 2025 19:04:25 CET INFO - updateConfigEntry - 'GAMEID' option missing in config '960090.conf' - adding a new line
+ons  5 feb 2025 19:04:25 CET INFO - getArch - Architecture for '/home/roos/.local/share/Steam/steamapps/common/BloonsTD6/BloonsTD6.exe' is 64bit
+ons  5 feb 2025 19:04:25 CET INFO - updateConfigEntry - 'GAMEARCH' option missing in config '960090.conf' - adding a new line
+ons  5 feb 2025 19:04:25 CET INFO - updateConfigEntry - 'WINEPREFIX' option missing in config '960090.conf' - adding a new line
+ons  5 feb 2025 19:04:25 CET INFO - updateConfigEntry - 'MEGAMEDIR' option missing in config '960090.conf' - adding a new line
+ons  5 feb 2025 19:04:25 CET INFO - storeMetaData - Set symlink from '/home/roos/.config/steamtinkerlaunch/meta/id/general/960090.conf' to '/home/roos/.config/steamtinkerlaunch/meta/title/general/BloonsTD6.conf'
+ons  5 feb 2025 19:04:25 CET INFO - storeMetaData - Set symlink from '/home/roos/.config/steamtinkerlaunch/meta/id/custom/960090.conf' to '/home/roos/.config/steamtinkerlaunch/meta/title/custom/BloonsTD6.conf'
+ons  5 feb 2025 19:04:25 CET INFO - storeMetaData - '/home/roos/.config/steamtinkerlaunch/meta/eval/id/evaluatorscript_960090.vdf' does not exists

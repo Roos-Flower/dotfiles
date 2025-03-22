@@ -1,0 +1,78 @@
+* {
+  all: unset;
+}
+// @import "windows/calendar.css";
+/*@import "windows/bg.css";*/
+@import "windows/startmenu.scss";
+
+@keyframes slide-down {
+  from {
+    margin-top: -400px;
+  }
+
+  to {
+    margin-top: 0px;
+  }
+}
+
+.rev {
+  .cal {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-radius: 12px;
+    font-size: 20px;
+    padding-right: 4px;
+    padding-top: 5px;
+    padding-right: 5px;
+    calendar:selected {
+      color: #1e1e2e;
+      background-color: #cba6f7;
+      border-radius: 12px;
+    }
+    calendar:indeterminate {
+      color: #6c7086;
+    }
+    calendar.header {
+      color: #cba6f7;
+    }
+    calendar.button {
+      color: #cba6f7;
+    }
+    calendar.highlight {
+      color: #cba6f7;
+      font-weight: bold;
+    }
+  }
+  border: 2px solid #cba6f7;
+  border-radius: 12px;
+  animation-name: slide-down;
+  animation-duration: 0.3s;
+}
+
+.bg {
+  background-color: transparent;
+}
+@keyframes slide-right {
+  from {
+    padding-left: 0px;
+  }
+
+  to {
+    padding-left: 500px;
+  }
+}
+
+@keyframes slide {
+  from {
+    margin-left: -600px;
+  }
+  to {
+    margin-left: 60px;
+  }
+}
+
+.startermenu {
+  // animation-name: slide-right;
+  // animation-duration: 0.3s;
+  // padding-left: 500px;
+}

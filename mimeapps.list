@@ -1,0 +1,26 @@
+[Added Associations]
+font/ttf=gnome-font-viewer-3.desktop;gnome-font-viewer-2.desktop;gnome-font-viewer.desktop;
+text/plain=neovide.desktop;
+x-scheme-handler/http=userapp-Floorp-G3GK12.desktop;
+x-scheme-handler/https=userapp-Floorp-G3GK12.desktop;
+x-scheme-handler/chrome=userapp-Floorp-G3GK12.desktop;
+text/html=userapp-Floorp-G3GK12.desktop;
+application/x-extension-htm=userapp-Floorp-G3GK12.desktop;
+application/x-extension-html=userapp-Floorp-G3GK12.desktop;
+application/x-extension-shtml=userapp-Floorp-G3GK12.desktop;
+application/xhtml+xml=userapp-Floorp-G3GK12.desktop;
+application/x-extension-xhtml=userapp-Floorp-G3GK12.desktop;
+application/x-extension-xht=userapp-Floorp-G3GK12.desktop;
+
+[Default Applications]
+font/ttf=gnome-font-viewer-3.desktop;
+x-scheme-handler/http=userapp-Floorp-G3GK12.desktop
+x-scheme-handler/https=userapp-Floorp-G3GK12.desktop
+x-scheme-handler/chrome=userapp-Floorp-G3GK12.desktop
+text/html=userapp-Floorp-G3GK12.desktop
+application/x-extension-htm=userapp-Floorp-G3GK12.desktop
+application/x-extension-html=userapp-Floorp-G3GK12.desktop
+application/x-extension-shtml=userapp-Floorp-G3GK12.desktop
+application/xhtml+xml=userapp-Floorp-G3GK12.desktop
+application/x-extension-xhtml=userapp-Floorp-G3GK12.desktop
+application/x-extension-xht=userapp-Floorp-G3GK12.desktop

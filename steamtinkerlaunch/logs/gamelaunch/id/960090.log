@@ -1,0 +1,22 @@
+ERROR: ld.so: object '/home/roos/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/roos/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+wine: using kernel write watches, use_kernel_writewatch 1.
+fsync: up and running.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+Setting breakpad minidump AppID = 960090
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198127345324 [API loaded no]
+wine: using kernel write watches, use_kernel_writewatch 1.
+wine: using kernel write watches, use_kernel_writewatch 1.
+Fossilize INFO: Overriding serialization path: "/home/roos/.local/share/Steam/steamapps/shadercache/960090/fozpipelinesv6/steamapprun_pipeline_cache".
+CreateFn failed for SteamGameServerStats001 GameServerStats
+CreateFn failed for SteamGameServer012 GameServer
+wine: using kernel write watches, use_kernel_writewatch 1.
+pid 43519 != 43518, skipping destruction (fork without exec?)

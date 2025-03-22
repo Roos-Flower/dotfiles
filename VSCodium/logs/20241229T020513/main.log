@@ -1,0 +1,50 @@
+2024-12-29 02:05:13.706 [trace] [File Watcher (node.js)] Request to start watching: /home/roos/.config/VSCodium/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/roos/.config/VSCodium/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:05:13.706 [debug] Starting VSCodium
+2024-12-29 02:05:13.706 [debug] from: /usr/share/vscodium/resources/app
+2024-12-29 02:05:13.706 [debug] args: {"_":[],"diff":false,"merge":false,"add":false,"goto":false,"new-window":false,"reuse-window":false,"wait":false,"help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"update-extensions":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-lcd-text":false,"disable-gpu":false,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":false,"disable-crash-reporter":false,"skip-add-to-recently-opened":false,"open-url":false,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"trace":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"no-proxy-server":false,"no-sandbox":false,"nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":false,"profile-temp":false,"logsPath":"/home/roos/.config/VSCodium/logs/20241229T020513"}
+2024-12-29 02:05:13.706 [trace] Resolving machine identifier...
+2024-12-29 02:05:13.706 [trace] Resolved machine identifier: 50c8838b8ff5c0f53653b6acfd4ae46eaa8f5f93771c40ba0cca27a55d183ff0
+2024-12-29 02:05:13.706 [trace] Main->SharedProcess#connect
+2024-12-29 02:05:13.706 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.config/VSCodium/User'
+2024-12-29 02:05:13.706 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.config/VSCodium/User/settings.json'
+2024-12-29 02:05:13.706 [trace] StorageMainService: creating application storage
+2024-12-29 02:05:13.706 [trace] ElectronURLListener: waiting for window to be ready to handle URLs...
+2024-12-29 02:05:13.706 [trace] lifecycle (main): phase changed (value: 2)
+2024-12-29 02:05:13.706 [trace] windowsManager#open
+2024-12-29 02:05:13.706 [trace] windowsManager#open pathsToOpen [{"backupPath":"/home/roos/.config/VSCodium/Backups/1735434078609"}]
+2024-12-29 02:05:13.706 [trace] windowsManager#doOpenEmpty {"restore":true,"forceNewWindow":true}
+2024-12-29 02:05:13.706 [trace] IPC Object URL: Registered new channel vscode:9661fb21-e700-49a0-8beb-ac9128adbae4.
+2024-12-29 02:05:13.706 [trace] window#validateWindowState: validating window state on 1 display(s) {"mode":1,"x":56,"y":61,"width":1034,"height":1168}
+2024-12-29 02:05:13.706 [trace] window#validateWindowState: single monitor working area {"x":0,"y":0,"width":1920,"height":1200}
+2024-12-29 02:05:13.706 [trace] window#ctor: using window state {"mode":1,"x":56,"y":61,"width":1034,"height":1168}
+2024-12-29 02:05:13.706 [trace] window#load: attempt to load window (id: 1)
+2024-12-29 02:05:13.706 [trace] windowsManager#open used window count 1 (workspacesToOpen: 0, foldersToOpen: 0, emptyToRestore: 1, openOneEmptyWindow: false)
+2024-12-29 02:05:13.706 [trace] lifecycle (main): phase changed (value: 3)
+2024-12-29 02:05:13.706 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2024-12-29 02:05:13.706 [info] update#setState disabled
+2024-12-29 02:05:13.706 [info] update#ctor - updates are disabled as there is no update URL
+2024-12-29 02:05:13.864 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2024-12-29 02:05:14.226 [trace] StorageMainService: creating workspace storage (1735434078609)
+2024-12-29 02:05:14.509 [trace] window#load: window reported ready (id: 1)
+2024-12-29 02:05:14.510 [trace] ElectronURLListener#flush(): flushing URLs
+2024-12-29 02:05:14.516 [trace] [SharedProcess] onWindowConnection for: vscode:createSharedProcessChannelConnectionResult
+2024-12-29 02:05:14.517 [trace] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2024-12-29 02:05:14.526 [trace] [UtilityProcess type: shared-process, pid: <none>]: payload sent via postMessage()
+2024-12-29 02:05:14.527 [trace] [UtilityProcessWorker]: createWorker(window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2024-12-29 02:05:14.527 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2024-12-29 02:05:14.536 [trace] [UtilityProcess type: shared-process, pid: 1407]: successfully created
+2024-12-29 02:05:14.537 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 1408]: successfully created
+2024-12-29 02:05:14.601 [trace] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2024-12-29 02:05:14.611 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 1427]: successfully created
+2024-12-29 02:05:14.924 [trace] [SharedProcess] IPC ready
+2024-12-29 02:05:14.925 [trace] Main->SharedProcess#connect: connection established
+2024-12-29 02:05:14.936 [trace] [File Watcher (node.js)] Request to start watching: /home/roos/.config/VSCodium/User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/roos/.config/VSCodium/User/settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:05:14.937 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.config/VSCodium/User'
+2024-12-29 02:05:14.937 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.config/VSCodium/User/settings.json'
+2024-12-29 02:05:14.946 [trace] [SharedProcess] Overall ready
+2024-12-29 02:05:14.962 [trace] [File Watcher (node.js)] Request to start watching: /home/roos/.vscode-oss/extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),/home/roos/.vscode-oss/extensions/extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2024-12-29 02:05:14.963 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.vscode-oss/extensions'
+2024-12-29 02:05:14.963 [trace] [File Watcher (node.js)] Started watching: '/home/roos/.vscode-oss/extensions/extensions.json'
+2024-12-29 02:05:14.997 [trace] resolveShellEnv(): skipped (VSCODE_CLI is set)
+2024-12-29 02:05:15.022 [debug] Terminal profile not validated pwsh ["pwsh"]
+2024-12-29 02:05:15.023 [debug] Terminal profile not validated tmux ["tmux"]

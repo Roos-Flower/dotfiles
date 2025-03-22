@@ -1,0 +1,10 @@
+[1]
+ActiveTab=0
+Urls[$e]=\\0
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=Shell
+ObjectName=okular::Shell#1

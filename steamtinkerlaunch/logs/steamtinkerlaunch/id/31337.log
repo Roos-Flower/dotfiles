@@ -1,0 +1,49 @@
+fre 21 feb 2025 18:46:11 CET INFO - initAID - Set AID from STEAM_COMPAT_APP_ID to '0'
+fre 21 feb 2025 18:46:11 CET INFO - initAID - Set AID to PLACEHOLDERAID '31337'
+fre 21 feb 2025 18:46:11 CET INFO - initAID - Set OSCDP to STEAM_COMPAT_DATA_PATH '/home/roos/.local/share/Steam/steamapps/compatdata/0'
+fre 21 feb 2025 18:46:11 CET INFO - loadLangFile - Language from command line is 'english'
+fre 21 feb 2025 18:46:11 CET INFO - loadLangFile - SYSTEMSTLCFGDIR is '/usr/share/steamtinkerlaunch'
+fre 21 feb 2025 18:46:11 CET INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+fre 21 feb 2025 18:46:11 CET INFO - getCurrentCommandline - No Proton in command line arguments 'run /home/roos/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'
+fre 21 feb 2025 18:46:11 CET INFO - saveOrgVars - Storing some original variables to restore them later
+fre 21 feb 2025 18:46:11 CET INFO - emptyVars - Emptied some original variables as they slowdown several system calls when started from steam
+fre 21 feb 2025 18:46:11 CET INFO - emptyVars - Set $PATH to '/home/roos/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/roos/.local/share/coursier/bin:'
+fre 21 feb 2025 18:46:11 CET START - ######### Initializing Game Launch 31337 using SteamTinkerLaunch v14.0.20241228-1 #########
+fre 21 feb 2025 18:46:11 CET INFO - main - Starting with a clean log
+fre 21 feb 2025 18:46:11 CET INFO - main - Start creating default configs
+fre 21 feb 2025 18:46:11 CET INFO - createDefaultCfgs - START
+fre 21 feb 2025 18:46:11 CET INFO - loadLanguage - First load the default language 'english' to make sure all variables are filled
+fre 21 feb 2025 18:46:11 CET INFO - loadLangFile - Language from command line is 'english'
+fre 21 feb 2025 18:46:11 CET INFO - loadLangFile - GLOBALSTLLANGDIR is '/usr/share/steamtinkerlaunch/lang'
+fre 21 feb 2025 18:46:11 CET INFO - loadLangFile - Command line language 'english' is no file - trying to find its absolute path
+fre 21 feb 2025 18:46:11 CET INFO - loadLangFile - Loading language file from script directory '/home/roos/.local/share/steamtinkerlaunch/lang/english.txt'
+fre 21 feb 2025 18:46:11 CET INFO - loadLanguage - Loading STLLANG from '/home/roos/.config/steamtinkerlaunch/global.conf'
+fre 21 feb 2025 18:46:11 CET INFO - loadLanguage - STLLANG from '/home/roos/.config/steamtinkerlaunch/global.conf' is 'english'
+fre 21 feb 2025 18:46:11 CET INFO - createDefaultCfgs - setSteamPaths:
+fre 21 feb 2025 18:46:11 CET INFO - setSteamPaths - Reading Steam Path variables from '/dev/shm/steamtinkerlaunch/steampaths.txt'
+fre 21 feb 2025 18:46:11 CET INFO - getGameOS - Starting game OS detection
+fre 21 feb 2025 18:46:11 CET WARN - getGameOS - Could not extract the full game binary path from the incoming game launch command, so assuming this is a Windows game!
+fre 21 feb 2025 18:46:12 CET INFO - setWin - '' determined to be a Windows Game
+fre 21 feb 2025 18:46:12 CET INFO - createDefaultCfgs - createProtonList:
+fre 21 feb 2025 18:46:12 CET INFO - createDefaultCfgs - createProtonList end
+fre 21 feb 2025 18:46:12 CET INFO - listAllSettingsEntries - '/dev/shm/steamtinkerlaunch/setentries.txt' already exists - nothing to do
+fre 21 feb 2025 18:46:12 CET INFO - createDefaultCfgs - STOP
+fre 21 feb 2025 18:46:12 CET SKIP - listSteamLibraries - not recreating already available '/dev/shm/steamtinkerlaunch/SteamLibraries.txt'
+fre 21 feb 2025 18:46:12 CET INFO - setSteamLibraryPaths - STEAM_COMPAT_LIBRARY_PATHS set to '/home/roos/.local/share/Steam/steamapps:/home/roos/steam/steamapps'
+fre 21 feb 2025 18:46:12 CET INFO - setSteamLibraryPaths - STEAM_COMPAT_MOUNTS set to '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier:/home/roos/.local/share/Steam/steamapps/common/Steamworks Shared'
+fre 21 feb 2025 18:46:12 CET INFO - setSteamLibraryPaths - STEAM_COMPAT_TOOL_PATHS set to '/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime:/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_soldier:/home/roos/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper:/home/roos/.local/share/Steam/steamapps/common/Steamworks Shared'
+fre 21 feb 2025 18:46:12 CET INFO - main - Checking internal dependencies:
+fre 21 feb 2025 18:46:12 CET INFO - setAwkBin - Found 'gawk' as an 'awk' variant. It should work without any issues, because 'gawk' was tested completely
+fre 21 feb 2025 18:46:12 CET INFO - checkIntDeps - Result of version check for yad binary '/usr/bin/yad' is '14.1'
+fre 21 feb 2025 18:46:12 CET INFO - checkIntDeps - Yad is set correctly in the Global Config, nothing to do.
+fre 21 feb 2025 18:46:12 CET INFO - main - Initializing first Proton:
+fre 21 feb 2025 18:46:12 CET INFO - initOldProtonArr - Creating an initial array with available Proton versions using the file '/dev/shm/steamtinkerlaunch/ProtonCSV.txt' which was created during a previous run
+fre 21 feb 2025 18:46:12 CET INFO - initFirstProton - Initializing Proton
+fre 21 feb 2025 18:46:12 CET INFO - initFirstProton - Initial Proton version 'FIRSTUSEPROTON' from '/home/roos/.config/steamtinkerlaunch/default_template.conf' is 'proton-9.0-4c'
+fre 21 feb 2025 18:46:12 CET INFO - main - Initializing default window resolution
+fre 21 feb 2025 18:46:12 CET INFO - setInitWinXY - Using '1440x900' from config '/dev/shm/steamtinkerlaunch/defres.txt'
+fre 21 feb 2025 18:46:12 CET INFO - main - Welcome to SteamTinkerLaunch
+fre 21 feb 2025 18:46:12 CET INFO - removeEmptyFiles - Removing empty files from '/home/roos/.config/steamtinkerlaunch/games/appinfo'
+fre 21 feb 2025 18:46:12 CET INFO - removeEmptyFiles - Removing empty files from '/home/roos/.config/steamtinkerlaunch/games/header'
+fre 21 feb 2025 18:46:12 CET INFO - main - Checking command line: incoming arguments 'run /home/roos/.local/share/Steam/ubuntu12_32/../bin/d3ddriverquery64.exe -d3d12'
+fre 21 feb 2025 18:46:12 CET INFO - main - Checking command line: first argument 'run'
