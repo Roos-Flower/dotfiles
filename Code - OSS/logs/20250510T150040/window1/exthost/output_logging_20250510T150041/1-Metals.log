@@ -1,0 +1,221 @@
+Metals version: 1.5.2
+Using coursier located at /home/roos/.local/share/coursier/bin/coursier
+Searching for Java on PATH. Found java executable under /usr/bin/java that resolves to /usr/lib/jvm/java-21-openjdk/bin/java
+Using Java Home: /usr/lib/jvm/java-21-openjdk
+2025.05.10 15:00:44 INFO  logging to files /tmp/fallback-service16167519038607691833/.metals/metals.log
+2025.05.10 15:00:44 INFO  Started: Metals version 1.5.2 in folders '' for client Code - OSS 1.99.3.
+2025.05.10 15:00:45 INFO  time: initialize in 0.51s
+Initializing Scala Debugger
+Release notes was not shown: not showing release notes since they've already been seen for your current version
+2025.05.10 15:00:44 INFO  Database: jdbc:h2:file:/tmp/fallback-service16167519038607691833/.metals/metals (H2 2.3)
+2025.05.10 15:00:45 INFO  Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025.05.10 15:00:45 INFO  Successfully validated 6 migrations (execution time 00:00.010s)
+2025.05.10 15:00:45 INFO  Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025.05.10 15:00:45 INFO  Current version of schema "PUBLIC": << Empty Schema >>
+2025.05.10 15:00:45 INFO  Migrating schema "PUBLIC" to version "1 - Create tables"
+2025.05.10 15:00:45 INFO  Migrating schema "PUBLIC" to version "2 - Server discovery"
+2025.05.10 15:00:45 INFO  Migrating schema "PUBLIC" to version "3 - Jar symbols"
+2025.05.10 15:00:45 INFO  Migrating schema "PUBLIC" to version "4 - Fingerprints"
+2025.05.10 15:00:45 INFO  Migrating schema "PUBLIC" to version "5 - Jar type hierarchy"
+2025.05.10 15:00:45 INFO  Migrating schema "PUBLIC" to version "6 - Delete indices"
+2025.05.10 15:00:45 INFO  Successfully applied 6 migrations to schema "PUBLIC", now at version v6 (execution time 00:00.016s)
+2025.05.10 15:00:45 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:47 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:48 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:48 INFO  time: code lens generation in 2.77s
+2025.05.10 15:00:48 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:48 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:48 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Your Scala CLI version is outdated. The newest version is 1.8.0
+It is recommended that you update Scala CLI through the same tool or method you used for its initial installation for avoiding the creation of outdated duplicates.
+2025.05.10 15:00:49 INFO  Running List(/home/roos/.local/share/coursier/bin/scala-cli, bsp, --workspace, /tmp/metals-scala-cli6960272935731009041, --semantic-db-source-root, /home/roos/githubs/bearlyb/bearlyb/src/audio, /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala)
+2025.05.10 15:00:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/roos/githubs/bearlyb/bearlyb/src/audio/.metals/bsp.trace.json or /home/roos/.cache/metals/bsp.trace.json
+2025.05.10 15:00:50 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:50 INFO  Scala CLI: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2025.05.10 15:00:50 INFO  Scala CLI: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2025.05.10 15:00:50 INFO  Scala CLI: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2025.05.10 15:00:51 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:51 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:51 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:51 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:52 INFO  Scala CLI: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2025.05.10 15:00:51 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:51 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:52 INFO  Scala CLI: Starting compilation server
+2025.05.10 15:00:53 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:53 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:53 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:54 INFO  Connected to Scala CLI server v1.5.1
+2025.05.10 15:00:54 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.10 15:00:54 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-a7723325ee (1 scala source)
+2025.05.10 15:00:55 INFO  Database: jdbc:h2:file:/home/roos/.local/share/metals/metals (H2 2.3)
+2025.05.10 15:00:55 INFO  Successfully validated 1 migration (execution time 00:00.002s)
+2025.05.10 15:00:55 INFO  Current version of schema "PUBLIC": 1
+2025.05.10 15:00:55 INFO  Schema "PUBLIC" is up to date. No migration necessary.
+2025.05.10 15:00:56 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-a7723325ee in 1.55s
+2025.05.10 15:01:02 INFO  time: indexed workspace in 8.39s
+2025.05.10 15:01:02 INFO  Scala CLI started for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala
+2025.05.10 15:02:42 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-a7723325ee (1 scala source)
+2025.05.10 15:02:43 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-a7723325ee in 1.05s
+2025.05.10 15:04:39 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-a7723325ee (1 scala source)
+2025.05.10 15:04:39 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-a7723325ee in 0.32s
+2025.05.10 15:11:10 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioSpec.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:11:10 INFO  Running List(/home/roos/.local/share/coursier/bin/scala-cli, bsp, --workspace, /tmp/metals-scala-cli6960272935731009041, --semantic-db-source-root, /home/roos/githubs/bearlyb/bearlyb/src/audio, /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioSpec.scala)
+2025.05.10 15:11:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/roos/githubs/bearlyb/bearlyb/src/audio/.metals/bsp.trace.json or /home/roos/.cache/metals/bsp.trace.json
+2025.05.10 15:11:10 INFO  Connected to Scala CLI server v1.5.1
+2025.05.10 15:11:10 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:11:10 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 61ms
+2025.05.10 15:11:12 INFO  time: indexed workspace in 1.33s
+2025.05.10 15:11:12 INFO  Scala CLI started for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioSpec.scala
+2025.05.10 15:12:09 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/video/Window.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:12:09 INFO  Running List(/home/roos/.local/share/coursier/bin/scala-cli, bsp, --workspace, /tmp/metals-scala-cli6960272935731009041, --semantic-db-source-root, /home/roos/githubs/bearlyb/bearlyb/src/video, /home/roos/githubs/bearlyb/bearlyb/src/video/Window.scala)
+2025.05.10 15:12:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/roos/githubs/bearlyb/bearlyb/src/video/.metals/bsp.trace.json or /home/roos/.cache/metals/bsp.trace.json
+2025.05.10 15:12:09 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/video/Window.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:12:09 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/video/Window.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:12:09 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/video/Window.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:12:10 INFO  Connected to Scala CLI server v1.5.1
+2025.05.10 15:12:09 INFO  compiling metals-scala-cli6960272935731009041_1419f89270-354664a93f (1 scala source)
+2025.05.10 15:12:11 INFO  time: compiled metals-scala-cli6960272935731009041_1419f89270-354664a93f in 0.85s
+2025.05.10 15:12:11 INFO  compiling metals-scala-cli6960272935731009041_1419f89270-354664a93f (1 scala source)
+2025.05.10 15:12:11 INFO  time: indexed workspace in 1.39s
+2025.05.10 15:12:11 INFO  time: compiled metals-scala-cli6960272935731009041_1419f89270-354664a93f in 0.46s
+2025.05.10 15:12:11 INFO  compiling metals-scala-cli6960272935731009041_1419f89270-354664a93f (1 scala source)
+2025.05.10 15:12:12 INFO  time: compiled metals-scala-cli6960272935731009041_1419f89270-354664a93f in 0.48s
+2025.05.10 15:12:12 INFO  Scala CLI started for /home/roos/githubs/bearlyb/bearlyb/src/video/Window.scala
+2025.05.10 15:12:59 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:12:59 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.22s
+2025.05.10 15:16:43 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:16:43 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.26s
+2025.05.10 15:17:32 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:17:32 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.33s
+2025.05.10 15:27:17 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:27:17 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.35s
+2025.05.10 15:27:48 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:27:48 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.28s
+2025.05.10 15:27:53 INFO  Shut down connection with build server.
+2025.05.10 15:28:16 INFO  Scala CLI: os.PathError$LastOnEmptyPath: empty path has no last segment
+2025.05.10 15:28:16 INFO  Scala CLI: 	at os.PathError$LastOnEmptyPath$.apply(Path.scala:228)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at os.BasePathImpl.last$$anonfun$1(Path.scala:210)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.Option.getOrElse(Option.scala:201)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at os.BasePathImpl.last(Path.scala:210)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at os.BasePathImpl.last$(Path.scala:190)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at os.RelPath.last(Path.scala:261)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.build.bsp.BloopSession.isScalaFile$1(BloopSession.scala:40)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.build.bsp.BloopSession.$anonfun$1(BloopSession.scala:42)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.build.bsp.BloopSession.registerWatchInputs$$anonfun$1$$anonfun$1(BloopSession.scala:48)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.build.Build$$anon$2.onNext(Build.scala:1244)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at scala.build.Build$$anon$2.onNext(Build.scala:1243)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.Observers.onNext(Observers.java:31)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:58)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:36)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.Observers.onNext(Observers.java:31)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.NioPathWatcher.runCallbacks(NioPathWatcher.java:462)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.NioPathWatcher.handleEvent(NioPathWatcher.java:486)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.NioPathWatcher.access$300(NioPathWatcher.java:35)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:108)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.NioPathWatcher$2.accept(NioPathWatcher.java:102)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.swoval.files.NioPathWatcherService$2.run(NioPathWatcherService.java:95)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2025.05.10 15:28:16 INFO  Scala CLI: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2025.05.10 15:28:19 INFO  Shut down connection with build server.
+2025.05.10 15:28:32 INFO  Running List(/home/roos/.local/share/coursier/bin/scala-cli, bsp, --workspace, /tmp/metals-scala-cli6960272935731009041, --semantic-db-source-root, /home/roos/githubs/bearlyb/bearlyb/src/audio, /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioSpec.scala)
+2025.05.10 15:28:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/roos/githubs/bearlyb/bearlyb/src/audio/.metals/bsp.trace.json or /home/roos/.cache/metals/bsp.trace.json
+2025.05.10 15:28:32 INFO  Connected to Scala CLI server v1.5.1
+2025.05.10 15:28:32 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 1ms
+2025.05.10 15:28:33 INFO  time: indexed workspace in 0.99s
+2025.05.10 15:28:33 INFO  Scala CLI started for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioSpec.scala
+2025.05.10 15:28:36 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-a7723325ee (1 scala source)
+2025.05.10 15:28:36 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-a7723325ee in 0.3s
+2025.05.10 15:29:05 INFO  Running List(/home/roos/.local/share/coursier/bin/scala-cli, bsp, --workspace, /tmp/metals-scala-cli6960272935731009041, --semantic-db-source-root, /home/roos/githubs/bearlyb/bearlyb/src/audio, /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioFormat.scala)
+2025.05.10 15:29:05 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioFormat.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:29:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/roos/githubs/bearlyb/bearlyb/src/audio/.metals/bsp.trace.json or /home/roos/.cache/metals/bsp.trace.json
+2025.05.10 15:29:05 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioFormat.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:29:05 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioFormat.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:29:05 INFO  no build target found for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioFormat.scala. Using presentation compiler with project's scala-library version: 3.5.1
+2025.05.10 15:29:05 INFO  Connected to Scala CLI server v1.5.1
+2025.05.10 15:29:05 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-5e7409088a (1 scala source)
+2025.05.10 15:29:05 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-5e7409088a in 0.17s
+2025.05.10 15:29:05 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-5e7409088a (1 scala source)
+2025.05.10 15:29:06 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-5e7409088a in 0.22s
+2025.05.10 15:29:05 INFO  time: indexed workspace in 0.98s
+2025.05.10 15:29:06 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-5e7409088a (1 scala source)
+2025.05.10 15:29:06 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-5e7409088a in 0.17s
+2025.05.10 15:29:07 INFO  Scala CLI started for /home/roos/githubs/bearlyb/bearlyb/src/audio/AudioFormat.scala
+2025.05.10 15:29:10 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-a7723325ee (1 scala source)
+2025.05.10 15:29:10 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-a7723325ee in 0.12s
+2025.05.10 15:29:33 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.05.10 15:29:33 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.05.10 15:30:27 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:30:27 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.19s
+2025.05.10 15:30:33 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [60012 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.05.10 15:30:33 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [60012 milliseconds]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.05.10 15:30:34 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:30:34 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.13s
+2025.05.10 15:31:56 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:31:56 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.24s
+2025.05.10 15:33:14 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:33:14 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.27s
+2025.05.10 15:34:03 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:34:03 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.18s
+2025.05.10 15:34:11 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:34:11 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.14s
+2025.05.10 15:39:21 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:39:21 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.27s
+2025.05.10 15:47:07 INFO  compiling metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 (1 scala source)
+2025.05.10 15:47:07 INFO  time: compiled metals-scala-cli6960272935731009041_174cac1f30-d537567ec0 in 0.28s
+2025.05.14 13:59:15 INFO  Shutting down server
+2025.05.14 13:59:15 INFO  shutting down Metals

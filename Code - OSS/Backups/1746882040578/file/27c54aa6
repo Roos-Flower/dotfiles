@@ -1,0 +1,21 @@
+file:///home/roos/githubs/bearlyb/bearlyb/src/audio/AudioSpec.scala {"mtime":1746884827610,"ctime":1746883709599,"size":440,"etag":"3e7ngjomie6","orphaned":false,"typeId":""}
+package bearlyb.audio
+
+import org.lwjgl.sdl, sdl.SDLAudio.*
+import
+org.lwjgl.system,
+system.MemoryStack.stackPush
+import bearlyb.*
+import render.Renderer
+
+case class AudioSpec( 
+  format: AudioFormat, /**< Audio data format */
+  channels: Int, /**< Number of channels: 1 mono, 2 stereo, etc */
+  freq: Int /**< sample rate: sample frames per second */
+  ) extends NativeResource, org.lwjgl.system.Pointer.Default
+  {
+
+    case class Buffer(address: Long, cap: Int) extends org.lwjgl.system.StructBuffer[AudioSpec,AudioSpec.Buffer]
+
+    org.lwjgl.system.MemortUtil.memCalloc()
+  }

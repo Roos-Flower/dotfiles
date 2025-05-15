@@ -1,0 +1,171 @@
+Code - OSS (1.99.1, undefined, desktop)
+Jupyter Extension Version: 2025.3.0.
+Python Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/roos
+Temp Storage folder ~/.config/Code - OSS/User/globalStorage/ms-toolsai.jupyter/version-2025.3.0
+No workspace folder opened.
+10:22:01.488 [error] Error in activating extension, failed in ky [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookKernelSource.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookKernelSource.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.createNotebookControllerDetectionTask (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:52605)
+	at e (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:5509)
+	at ky.startRefreshWithoutPython (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:5883)
+	at ky.activate (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:5108)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:379:27934
+	at Array.map (<anonymous>)
+	at bI.activate (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:379:27920)
+	at ez (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:442:2137)
+	at async khe (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:444:454)]
+10:22:01.492 [error] Error in activating extension, failed in ub [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookKernelSource.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookKernelSource.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.registerKernelSourceActionProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:52727)
+	at ub.activate (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:120836)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:379:27934
+	at Array.map (<anonymous>)
+	at bI.activate (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:379:27920)
+	at ez (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:442:2137)
+	at async khe (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:444:454)]
+10:22:01.507 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at set variableProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:29060)
+	at n.create (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:87847)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:101524
+	at Array.forEach (<anonymous>)
+	at eb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:101497)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:100577
+	at Array.forEach (<anonymous>)
+	at eb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:100547)
+	at eb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:99605)
+	at eb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:99065)
+	at eb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:98815)
+	at eb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:98183)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at Th.value (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:282:19850)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at af.writeToCache (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:36306)
+	at af.updateCache (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:35591)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:60:12513
+	at Cz (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:60:12090)
+	at i.value (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:60:12494)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:15084]
+10:22:01.508 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at set variableProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:172:29060)
+	at n.create (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:87847)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:101524
+	at Array.forEach (<anonymous>)
+	at eb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:101497)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:100577
+	at Array.forEach (<anonymous>)
+	at eb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:100547)
+	at eb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:99605)
+	at eb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:99065)
+	at eb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:98815)
+	at eb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:98183)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2593)
+	at Th.value (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:282:19850)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at af.writeToCache (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:36306)
+	at af.updateCache (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:35591)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:60:12513
+	at Cz (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:60:12090)
+	at i.value (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:60:12494)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2375)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2445)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:27:2662)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:296:15084]
+10:51:15.370 [info] Starting Kernel (Python 3 (ipykernel)) for '~/discStruc/Assignment 3 (Functions and Relations)/a3_functions-and-relations.ipynb' (disableUI=false)
+10:51:15.386 [error] Failure in registering port attributes [Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: portsAttributes.
+Its package.json#enabledApiProposals-property declares:  but NOT portsAttributes.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at R (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:19265)
+	at Object.registerPortAttributesProvider (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:48788)
+	at HD (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:279:2688)
+	at Us.launch (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:300:7467)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async oT.start (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:11153)
+	at async sT.startKernel (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:21741)
+	at async jy.create (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:24048)
+	at async w_.createJupyterSession (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:282:37175)
+	at async w_.startJupyterSession (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:282:34827)
+	at async w_.start (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:282:30873)
+	at async n.wrapKernelMethodImpl (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:301:84144)]
+10:51:15.422 [info] Launching Raw Kernel Python 3 (ipykernel) # python
+10:51:15.432 [info] Process Execution: /python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3ad00176204964f624971dc631f56fe5f381e13d7.json
+    > cwd: ~/discStruc/Assignment 3 (Functions and Relations)
+10:51:15.877 [info] Kernel successfully started
+10:51:15.877 [warn] No nbextensions folder found for kernel .python3./python./.-m#ipykernel_launcher
+10:51:16.015 [warn] Cell completed with errors [su [Error]: No module named 'matplotlib'
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:294:4958)] {
+  ename: 'ModuleNotFoundError',
+  evalue: "No module named 'matplotlib'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mModuleNotFoundError\x1B[39m                       Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 2\x1B[39m\n' +
+      '\x1B[32m      1\x1B[39m \x1B[38;5;28;01mimport\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mnumpy\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mas\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mnp\x1B[39;00m\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m2\x1B[39m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34;01mmatplotlib\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m pyplot \x1B[38;5;28;01mas\x1B[39;00m plt\n' +
+      '\x1B[32m      4\x1B[39m plt.rcParams[\x1B[33m"\x1B[39m\x1B[33mfigure.figsize\x1B[39m\x1B[33m"\x1B[39m] = [\x1B[32m7.50\x1B[39m, \x1B[32m3.50\x1B[39m]\n' +
+      '\x1B[32m      5\x1B[39m plt.rcParams[\x1B[33m"\x1B[39m\x1B[33mfigure.autolayout\x1B[39m\x1B[33m"\x1B[39m] = \x1B[38;5;28;01mTrue\x1B[39;00m\n',
+    "\x1B[31mModuleNotFoundError\x1B[39m: No module named 'matplotlib'"
+  ]
+}
+10:51:36.752 [warn] Cell completed with errors [su [Error]: name 'f' is not defined
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:294:4958)] {
+  ename: 'NameError',
+  evalue: "name 'f' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 13\x1B[39m\n' +
+      '\x1B[32m      9\x1B[39m x2 = np.array([\x1B[32m1\x1B[39m / (\x1B[32m2\x1B[39m**i) \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m100\x1B[39m)])\n' +
+      '\x1B[32m     10\x1B[39m y2 = np.array([\x1B[32m1\x1B[39m / (\x1B[32m2\x1B[39m**i) \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m1\x1B[39m, \x1B[32m100\x1B[39m)])\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m13\x1B[39m plt.plot(x, np.array([\x1B[43mf\x1B[49m(i) \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m x]), color=\x1B[33m"\x1B[39m\x1B[33mblue\x1B[39m\x1B[33m"\x1B[39m, label=\x1B[33m"\x1B[39m\x1B[33mf(x)\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     14\x1B[39m plt.plot(np.array([g(i) \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m y]), y, color=\x1B[33m"\x1B[39m\x1B[33mgreen\x1B[39m\x1B[33m"\x1B[39m, label=\x1B[33m"\x1B[39m\x1B[33mg(y)\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     16\x1B[39m plt.legend()\n',
+    "\x1B[31mNameError\x1B[39m: name 'f' is not defined"
+  ]
+}
+10:51:45.941 [warn] Cell completed with errors [su [Error]: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+	at n.execute (/home/~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.3.0-universal/dist/extension.node.js:294:4958)] {
+  ename: 'ValueError',
+  evalue: 'The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mValueError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 14\x1B[39m\n' +
+      '\x1B[32m     10\x1B[39m y2 = np.array([\x1B[32m1\x1B[39m / (\x1B[32m2\x1B[39m**i) \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m1\x1B[39m, \x1B[32m100\x1B[39m)])\n' +
+      '\x1B[32m     13\x1B[39m plt.plot(x, np.array([f(i) \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m x]), color=\x1B[33m"\x1B[39m\x1B[33mblue\x1B[39m\x1B[33m"\x1B[39m, label=\x1B[33m"\x1B[39m\x1B[33mf(x)\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m14\x1B[39m plt.plot(np.array([\x1B[43mg\x1B[49m\x1B[43m(\x1B[49m\x1B[43mi\x1B[49m\x1B[43m)\x1B[49m \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m y]), y, color=\x1B[33m"\x1B[39m\x1B[33mgreen\x1B[39m\x1B[33m"\x1B[39m, label=\x1B[33m"\x1B[39m\x1B[33mg(y)\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     16\x1B[39m plt.legend()\n' +
+      '\x1B[32m     17\x1B[39m plt.show()\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[3]\x1B[39m\x1B[32m, line 9\x1B[39m, in \x1B[36mg\x1B[39m\x1B[34m(y)\x1B[39m\n' +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34mg\x1B[39m(y):\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[43mx\x1B[49m\x1B[43m<\x1B[49m\x1B[32;43m0\x1B[39;49m \x1B[38;5;129;01mor\x1B[39;00m x>=\x1B[32m1\x1B[39m:\n' +
+      '\x1B[32m     10\x1B[39m         \x1B[38;5;28mprint\x1B[39m (\x1B[33m"\x1B[39m\x1B[33mthe function is not defined for this output\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     11\x1B[39m     \x1B[38;5;28;01melse\x1B[39;00m:\n',
+    '\x1B[31mValueError\x1B[39m: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()'
+  ]
+}
+11:17:46.697 [info] Disposing kernel .python3./python./.-m#ipykernel_launcher for notebook /home/~/a3_functions-and-relations.ipynb due to selection of another kernel or closing of the notebook
+11:17:46.698 [info] Dispose Kernel '/home/~/a3_functions-and-relations.ipynb' associated with '/home/~/a3_functions-and-relations.ipynb'
+11:20:20.841 [info] Dispose Kernel '/home/~/a3_functions-and-relations.ipynb' associated with '/home/~/a3_functions-and-relations.ipynb'
+11:20:20.841 [info] Dispose Kernel '~/discStruc/Assignment 3 (Functions and Relations)/a3_functions-and-relations.ipynb' associated with '~/discStruc/Assignment 3 (Functions and Relations)/a3_functions-and-relations.ipynb'

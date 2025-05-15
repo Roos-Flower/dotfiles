@@ -1,0 +1,10 @@
+2025-04-14 14:15:22.831083[Thread 0x00007262478ed280]:Instance check: Another instance not found or single-instance not set.
+2025-04-14 14:15:22.860870[Thread 0x00007262478ed280]:gui mode, Current BambuStudio Version 02.00.01.50
+2025-04-14 14:15:22.860920[Thread 0x00007262478ed280]:Operating System:    Unix
+System Architecture: 64 bit
+System Version:      Linux 6.14.2-arch1-1 x86_64
+Total RAM size [MB]: 14,396MB
+2025-04-14 14:15:25.339563[Thread 0x00007262478ed280]:~GUI_App: enter
+2025-04-14 14:15:25.339652[Thread 0x00007262478ed280]:~GUI_App: destroy app_config
+2025-04-14 14:15:25.339826[Thread 0x00007262478ed280]:get, can not Load Library
+2025-04-14 14:15:25.339841[Thread 0x00007262478ed280]:~GUI_App: exit

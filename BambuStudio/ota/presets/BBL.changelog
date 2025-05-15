@@ -1,0 +1,5 @@
+{
+    "description": "This preset package updates the machine start gcode for H2D:\n1. Fixed the issue where the pre-extrusion line extended beyond the heated bed.\n2. Fixed the abnormal waiting issue during chamber heating.",
+    "force": false,
+    "version": "02.00.00.77"
+}

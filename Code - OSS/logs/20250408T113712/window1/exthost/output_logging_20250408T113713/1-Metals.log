@@ -1,0 +1,44 @@
+Metals version: 1.5.2
+Using coursier located at /home/roos/.local/share/coursier/bin/coursier
+Searching for Java on PATH. Found java executable under /usr/bin/java that resolves to /usr/lib/jvm/java-21-openjdk/bin/java
+Using Java Home: /usr/lib/jvm/java-21-openjdk
+2025.04.08 11:37:16 INFO  logging to files /tmp/fallback-service304474638245937073/.metals/metals.log
+2025.04.08 11:37:16 INFO  Started: Metals version 1.5.2 in folders '' for client Code - OSS 1.99.0.
+2025.04.08 11:37:16 INFO  time: initialize in 0.47s
+Initializing Scala Debugger
+Release notes was not shown: not showing release notes since they've already been seen for your current version
+2025.04.08 11:37:16 INFO  Database: jdbc:h2:file:/tmp/fallback-service304474638245937073/.metals/metals (H2 2.3)
+2025.04.08 11:37:16 INFO  Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2025.04.08 11:37:16 INFO  Successfully validated 6 migrations (execution time 00:00.011s)
+2025.04.08 11:37:16 INFO  Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2025.04.08 11:37:16 INFO  Current version of schema "PUBLIC": << Empty Schema >>
+2025.04.08 11:37:17 INFO  Migrating schema "PUBLIC" to version "1 - Create tables"
+2025.04.08 11:37:17 INFO  Migrating schema "PUBLIC" to version "2 - Server discovery"
+2025.04.08 11:37:17 INFO  Migrating schema "PUBLIC" to version "3 - Jar symbols"
+2025.04.08 11:37:17 INFO  Migrating schema "PUBLIC" to version "4 - Fingerprints"
+2025.04.08 11:37:17 INFO  Migrating schema "PUBLIC" to version "5 - Jar type hierarchy"
+2025.04.08 11:37:17 INFO  Migrating schema "PUBLIC" to version "6 - Delete indices"
+2025.04.08 11:37:17 INFO  Successfully applied 6 migrations to schema "PUBLIC", now at version v6 (execution time 00:00.018s)
+2025.04.08 11:37:17 INFO  no build target found for /home/roos/githubs/bearlyb/playground/src/glfwGettingStarted.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 11:37:17 INFO  no build target found for /home/roos/githubs/bearlyb/playground/src/glfwGettingStarted.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.08 11:37:17 INFO  no build target found for /home/roos/githubs/bearlyb/playground/src/glfwGettingStarted.scala. Using presentation compiler with project's scala-library version: 3.3.5
+Your Scala CLI version is outdated. The newest version is 1.7.1
+It is recommended that you update Scala CLI through the same tool or method you used for its initial installation for avoiding the creation of outdated duplicates.
+2025.04.08 11:37:19 INFO  Running List(/home/roos/.local/share/coursier/bin/scala-cli, bsp, --workspace, /tmp/metals-scala-cli14971825633777907610, --semantic-db-source-root, /home/roos/githubs/bearlyb/playground/src, /home/roos/githubs/bearlyb/playground/src/glfwGettingStarted.scala)
+2025.04.08 11:37:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/roos/githubs/bearlyb/playground/src/.metals/bsp.trace.json or /home/roos/.cache/metals/bsp.trace.json
+2025.04.08 11:37:19 INFO  time: code lens generation in 1.68s
+2025.04.08 11:37:19 INFO  Connected to Scala CLI server v1.5.1
+2025.04.08 11:37:19 INFO  compiling metals-scala-cli14971825633777907610_f716c94285-53b8602c0b (1 scala source)
+2025.04.08 11:37:19 INFO  time: compiled metals-scala-cli14971825633777907610_f716c94285-53b8602c0b in 0.26s
+2025.04.08 11:37:19 INFO  compiling metals-scala-cli14971825633777907610_f716c94285-53b8602c0b (1 scala source)
+2025.04.08 11:37:20 INFO  time: compiled metals-scala-cli14971825633777907610_f716c94285-53b8602c0b in 0.2s
+2025.04.08 11:37:20 INFO  Database: jdbc:h2:file:/home/roos/.local/share/metals/metals (H2 2.3)
+2025.04.08 11:37:20 INFO  Successfully validated 1 migration (execution time 00:00.001s)
+2025.04.08 11:37:20 INFO  Current version of schema "PUBLIC": 1
+2025.04.08 11:37:20 INFO  Schema "PUBLIC" is up to date. No migration necessary.
+2025.04.08 11:37:20 INFO  time: indexed workspace in 1.76s
+2025.04.08 11:37:21 INFO  compiling metals-scala-cli14971825633777907610_f716c94285-53b8602c0b (1 scala source)
+2025.04.08 11:37:21 INFO  time: compiled metals-scala-cli14971825633777907610_f716c94285-53b8602c0b in 0.14s
+2025.04.08 11:37:21 INFO  Scala CLI started for /home/roos/githubs/bearlyb/playground/src/glfwGettingStarted.scala
+2025.04.08 11:38:07 INFO  Shutting down server
+2025.04.08 11:38:07 INFO  shutting down Metals

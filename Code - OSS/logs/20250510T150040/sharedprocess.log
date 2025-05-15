@@ -1,0 +1,45 @@
+2025-05-10 15:00:41.702 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:41.726 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:41.736 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:41.741 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:41.774 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:41.829 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:41.982 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:42.054 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:44.645 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:47.737 [info] Getting Manifest... kylinideteam.cppdebug
+2025-05-10 15:00:47.737 [info] Getting Manifest... kylinideteam.kylin-cmake-tools
+2025-05-10 15:00:47.738 [info] Getting Manifest... redhat.vscode-yaml
+2025-05-10 15:00:50.065 [info] Installing extension: redhat.vscode-yaml {"productVersion":{"version":"1.99.3","date":"2025-04-16T19:59:52.773Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/roos/.vscode-oss/extensions/extensions.json","path":"/home/roos/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-05-10 15:00:50.077 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:50.092 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:50.210 [info] Installing extension: kylinideteam.cppdebug {"productVersion":{"version":"1.99.3","date":"2025-04-16T19:59:52.773Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/roos/.vscode-oss/extensions/extensions.json","path":"/home/roos/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-05-10 15:00:50.223 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:50.235 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:50.260 [info] Installing extension: kylinideteam.kylin-cmake-tools {"productVersion":{"version":"1.99.3","date":"2025-04-16T19:59:52.773Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/roos/.vscode-oss/extensions/extensions.json","path":"/home/roos/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-05-10 15:00:50.410 [info] Getting Manifest... kylinideteam.cmake-intellisence
+2025-05-10 15:00:50.708 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:50.720 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:51.242 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-05-10 15:00:51.242 [info] Extension signature verification is not done: redhat.vscode-yaml
+2025-05-10 15:00:51.293 [info] Extracted extension to file:///home/roos/.vscode-oss/extensions/redhat.vscode-yaml-1.18.0-universal: redhat.vscode-yaml
+2025-05-10 15:00:51.301 [info] Renamed to /home/roos/.vscode-oss/extensions/redhat.vscode-yaml-1.18.0-universal
+2025-05-10 15:00:51.316 [info] Marked extension as removed redhat.vscode-yaml-1.17.0-universal
+2025-05-10 15:00:51.320 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:51.324 [info] Extension installed successfully: redhat.vscode-yaml vscode-userdata:/home/roos/.vscode-oss/extensions/extensions.json
+2025-05-10 15:00:53.265 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-05-10 15:00:53.265 [info] Extension signature verification is not done: kylinideteam.kylin-cmake-tools
+2025-05-10 15:00:53.458 [info] Extracted extension to file:///home/roos/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.0.4-universal: kylinideteam.kylin-cmake-tools
+2025-05-10 15:00:53.471 [info] Renamed to /home/roos/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.0.4-universal
+2025-05-10 15:00:53.493 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:00:53.494 [info] Marked extension as removed kylinideteam.kylin-cmake-tools-0.0.2-universal
+2025-05-10 15:00:53.497 [info] Extension installed successfully: kylinideteam.kylin-cmake-tools vscode-userdata:/home/roos/.vscode-oss/extensions/extensions.json
+2025-05-10 15:01:00.150 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-05-10 15:01:00.150 [info] Extension signature verification is not done: kylinideteam.cppdebug
+2025-05-10 15:01:00.761 [info] Extracted extension to file:///home/roos/.vscode-oss/extensions/kylinideteam.cppdebug-0.0.9-linux-x64: kylinideteam.cppdebug
+2025-05-10 15:01:00.770 [info] Renamed to /home/roos/.vscode-oss/extensions/kylinideteam.cppdebug-0.0.9-linux-x64
+2025-05-10 15:01:00.794 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:01:00.795 [info] Marked extension as removed kylinideteam.cppdebug-0.0.8-linux-x64
+2025-05-10 15:01:00.799 [info] Extension installed successfully: kylinideteam.cppdebug vscode-userdata:/home/roos/.vscode-oss/extensions/extensions.json
+2025-05-10 15:03:06.458 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.
+2025-05-10 15:03:06.563 [warning] [kylin-debug]: Couldn't find message for key gdb.launch.ssh.

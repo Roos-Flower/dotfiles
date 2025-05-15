@@ -1,0 +1,17 @@
+file:///home/roos/githubs/bearlyb/bearlyb/src/audio/AudioStream.scala {"mtime":1746883716625,"ctime":1746882012361,"size":229,"etag":"3e7nf38ln7c","orphaned":false,"typeId":""}
+package bearlyb.audio
+
+import org.lwjgl.sdl, sdl.SDLAudio.*
+import
+  org.lwjgl.system,
+  system.MemoryStack.stackPush
+import bearlyb.*
+import render.Renderer
+
+case class AudioStream(val src_spec: AudioSpec, val dst_spec: AudioSpec){
+  
+}
+
+
+
+
