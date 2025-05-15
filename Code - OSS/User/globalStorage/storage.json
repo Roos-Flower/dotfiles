@@ -7,24 +7,24 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1738263915481"
+                "backupFolder": "1746882040578"
             }
         ]
     },
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1738263915481": "__default__profile__"
+            "1746882040578": "__default__profile__"
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/roos/.config/Code - OSS/Backups/1738263915481",
+            "backupPath": "/home/roos/.config/Code - OSS/Backups/1746882040578",
             "uiState": {
                 "mode": 1,
-                "x": 966,
+                "x": 9,
                 "y": 59,
-                "width": 945,
+                "width": 1223,
                 "height": 1132
             }
         },
@@ -1701,7 +1701,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 258,
+            "sideBarWidth": 0,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false

@@ -1,4 +1,0 @@
-2025-01-30 20:03:31.692 [info] Started local extension host with pid 2262.
-2025-01-30 20:03:34.945 [info] [perf] Render performance baseline is 152ms
-2025-01-30 20:03:37.080 [error] Timed out waiting for authentication provider to register
-2025-01-30 20:03:55.152 [error] [network] #2: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled

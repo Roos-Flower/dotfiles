@@ -1,26 +1,20 @@
-2025/03/03-17:46:41.963 80c0 Reusing MANIFEST /home/roos/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/03/03-17:46:41.971 80c0 Recovering log #121
-2025/03/03-17:46:41.971 80c0 Reusing old log /home/roos/.config/discord/Local Storage/leveldb/000121.log 
-2025/03/03-17:50:02.884 80c1 Level-0 table #125: started
-2025/03/03-17:50:02.938 80c1 Level-0 table #125: 1002689 bytes OK
-2025/03/03-17:50:02.944 80c1 Delete type=0 #121
-2025/03/03-17:50:02.945 80c1 Compacting 4@0 + 2@1 files
-2025/03/03-17:50:02.962 80c1 Generated table #126@0: 5 keys, 2479254 bytes
-2025/03/03-17:50:02.982 80c1 Generated table #127@0: 45 keys, 1005941 bytes
-2025/03/03-17:50:02.982 80c1 Compacted 4@0 + 2@1 files => 3485195 bytes
-2025/03/03-17:50:02.987 80c1 compacted to: files[ 0 2 1 0 0 0 0 ]
-2025/03/03-17:50:02.988 80c1 Delete type=2 #113
-2025/03/03-17:50:02.988 80c1 Delete type=2 #122
-2025/03/03-17:50:02.988 80c1 Delete type=2 #125
-2025/03/03-17:50:02.988 80c1 Delete type=2 #117
-2025/03/03-17:50:02.988 80c1 Delete type=2 #119
-2025/03/03-17:50:02.988 80c1 Delete type=2 #114
-2025/03/03-18:08:34.463 80c1 Level-0 table #129: started
-2025/03/03-18:08:34.479 80c1 Level-0 table #129: 2480574 bytes OK
-2025/03/03-18:08:34.487 80c1 Delete type=0 #124
-2025/03/03-19:52:39.180 80c1 Level-0 table #131: started
-2025/03/03-19:52:39.193 80c1 Level-0 table #131: 55473 bytes OK
-2025/03/03-19:52:39.199 80c1 Delete type=0 #128
-2025/03/04-13:21:37.790 80c0 Level-0 table #133: started
-2025/03/04-13:21:37.837 80c0 Level-0 table #133: 58622 bytes OK
-2025/03/04-13:21:37.843 80c0 Delete type=0 #130
+2025/05/15-10:00:10.585 36825 Reusing MANIFEST /home/roos/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/15-10:00:10.594 36825 Recovering log #166
+2025/05/15-10:00:10.594 36825 Reusing old log /home/roos/.config/discord/Local Storage/leveldb/000166.log 
+2025/05/15-10:01:18.714 36826 Level-0 table #170: started
+2025/05/15-10:01:18.723 36826 Level-0 table #170: 30429 bytes OK
+2025/05/15-10:01:18.729 36826 Delete type=0 #166
+2025/05/15-10:01:18.729 36826 Compacting 4@0 + 2@1 files
+2025/05/15-10:01:18.765 36826 Generated table #171@0: 11 keys, 2516070 bytes
+2025/05/15-10:01:18.794 36826 Generated table #172@0: 87 keys, 1024377 bytes
+2025/05/15-10:01:18.795 36826 Compacted 4@0 + 2@1 files => 3540447 bytes
+2025/05/15-10:01:18.800 36826 compacted to: files[ 0 2 1 0 0 0 0 ]
+2025/05/15-10:01:18.801 36826 Delete type=2 #160
+2025/05/15-10:01:18.801 36826 Delete type=2 #165
+2025/05/15-10:01:18.801 36826 Delete type=2 #167
+2025/05/15-10:01:18.801 36826 Delete type=2 #163
+2025/05/15-10:01:18.801 36826 Delete type=2 #161
+2025/05/15-10:01:18.801 36826 Delete type=2 #170
+2025/05/15-10:03:47.513 36826 Level-0 table #174: started
+2025/05/15-10:03:47.542 36826 Level-0 table #174: 1030528 bytes OK
+2025/05/15-10:03:47.549 36826 Delete type=0 #169

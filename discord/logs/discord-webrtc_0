@@ -1,769 +1,207 @@
-[2025-03-19 16:03:35.879] [200942] (engine.cpp:528): Created native engine, time: Wed Mar 19 16:03:35 2025 CET, logPath: /home/roos/.config/discord/logs/, logLevel: 2
-[2025-03-19 16:03:35.879] [200942] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
-[2025-03-19 16:03:35.879] [200942] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
-[2025-03-19 16:03:35.879] [200942] (audio_processing_impl.cc:695): Injected APM submodules:
+[2025-05-15 10:00:19.664] [235321] (engine.cpp:528): Created native engine, time: Thu May 15 10:00:19 2025 CEST, logPath: /home/roos/.config/discord/logs/, logLevel: 2
+[2025-05-15 10:00:19.664] [235321] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-05-15 10:00:19.664] [235321] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-05-15 10:00:19.664] [235321] (audio_processing_impl.cc:461): Injected APM submodules:
 Echo control factory: 1
 Echo detector: 0
 Capture analyzer: 0
 Capture post processor: 0
 Render pre processor: 0
-[2025-03-19 16:03:35.879] [200942] (audio_processing_impl.cc:708): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-03-19 16:03:35.880] [200942] (matched_filter.cc:141): AEC3: Pre echo configuration:  threshold = 0.5, mode =  3.
-[2025-03-19 16:03:35.880] [200942] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
-[2025-03-19 16:03:35.880] [200942] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
-[2025-03-19 16:03:35.880] [200942] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:65): AudioDeviceBuffer::ctor
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:143): current platform is Linux
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:989): PlatformAudioLayer
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:298): PulseAudio support is enabled.
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:344): AttachAudioBuffer
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:182): SetRecordingSampleRate(0)
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:188): SetPlayoutSampleRate(0)
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(0)
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:208): SetPlayoutChannels(0)
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:354): ActiveAudioLayer
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:65): AudioDeviceBuffer::ctor
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:143): current platform is Linux
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:989): PlatformAudioLayer
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:298): PulseAudio support is enabled.
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:344): AttachAudioBuffer
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:182): SetRecordingSampleRate(0)
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:188): SetPlayoutSampleRate(0)
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(0)
-[2025-03-19 16:03:35.880] [200942] (audio_device_buffer.cc:208): SetPlayoutChannels(0)
-[2025-03-19 16:03:35.880] [200942] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
-[2025-03-19 16:03:35.880] [200942] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
-[2025-03-19 16:03:35.880] [200942] (audio_processing_impl.cc:695): Injected APM submodules:
+[2025-05-15 10:00:19.664] [235321] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-15 10:00:19.664] [235321] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-05-15 10:00:19.664] [235321] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-05-15 10:00:19.664] [235321] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-15 10:00:19.664] [235321] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-05-15 10:00:19.664] [235321] (audio_device_impl.cc:153): current platform is Linux
+[2025-05-15 10:00:19.664] [235321] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-05-15 10:00:19.664] [235321] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-05-15 10:00:19.664] [235321] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-05-15 10:00:19.664] [235321] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-05-15 10:00:19.664] [235321] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-05-15 10:00:19.664] [235321] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-05-15 10:00:19.664] [235321] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-05-15 10:00:19.664] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-05-15 10:00:19.664] [235321] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-05-15 10:00:19.664] [235321] (audio_device_impl.cc:310): ActiveAudioLayer
+[2025-05-15 10:00:19.665] [235321] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2025-05-15 10:00:19.665] [235321] (audio_device_impl.cc:153): current platform is Linux
+[2025-05-15 10:00:19.665] [235321] (audio_device_impl.cc:175): CreatePlatformSpecificObjects
+[2025-05-15 10:00:19.665] [235321] (audio_device_impl.cc:945): PlatformAudioLayer
+[2025-05-15 10:00:19.665] [235321] (audio_device_impl.cc:253): PulseAudio support is enabled.
+[2025-05-15 10:00:19.665] [235321] (audio_device_impl.cc:258): Linux PulseAudio APIs will be utilized
+[2025-05-15 10:00:19.665] [235321] (audio_device_impl.cc:300): AttachAudioBuffer
+[2025-05-15 10:00:19.665] [235321] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2025-05-15 10:00:19.665] [235321] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2025-05-15 10:00:19.665] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2025-05-15 10:00:19.665] [235321] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2025-05-15 10:00:19.665] [235321] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2025-05-15 10:00:19.665] [235321] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2025-05-15 10:00:19.665] [235321] (audio_processing_impl.cc:461): Injected APM submodules:
 Echo control factory: 0
 Echo detector: 0
 Capture analyzer: 0
 Capture post processor: 0
 Render pre processor: 0
-[2025-03-19 16:03:35.880] [200942] (audio_processing_impl.cc:708): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-03-19 16:03:35.880] [200942] (audio_engine.cpp:532): Creating audio engine: standard
-[2025-03-19 16:03:35.880] [200942] (audio_device_impl.cc:364): Init
-[2025-03-19 16:03:35.886] [200942] (audio_device_impl.cc:364): Init
-[2025-03-19 16:03:35.889] [200942] (audio_coding.cpp:158): Using software Opus decoder
-[2025-03-19 16:03:35.889] [200942] (audio_coding.cpp:175): Using software Opus encoder
-[2025-03-19 16:03:35.889] [200942] (audio_device_impl.cc:895): RegisterAudioCallback
-[2025-03-19 16:03:35.889] [200942] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
-[2025-03-19 16:03:35.889] [200942] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-03-19 16:03:35.889] [200942] (audio_device_impl.cc:895): RegisterAudioCallback
-[2025-03-19 16:03:35.889] [200942] (audio_engine.cpp:195): Setting audio input device: 'default'
-[2025-03-19 16:03:35.889] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:35.889] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:35.889] [200942] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2025-03-19 16:03:35.890] [200942] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2025-03-19 16:03:35.890] [200942] (audio_device_impl.cc:573): output: 1
-[2025-03-19 16:03:35.890] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:35.890] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:35.890] [200942] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-03-19 16:03:35.890] [200942] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2025-03-19 16:03:35.890] [200942] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-03-19 16:03:35.890] [200942] (audio_engine.cpp:212): Setting audio output device: 'default'
-[2025-03-19 16:03:35.890] [200942] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2025-03-19 16:03:35.890] [200942] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2025-03-19 16:03:35.891] [200942] (audio_device_impl.cc:619): output: 1
-[2025-03-19 16:03:35.891] [200942] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2025-03-19 16:03:35.891] [200942] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
-[2025-03-19 16:03:35.891] [200942] (audio_device_impl.cc:911): BuiltInAECIsAvailable
-[2025-03-19 16:03:35.891] [200942] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
-[2025-03-19 16:03:35.891] [200942] (audio_device_impl.cc:914): output: 0
-[2025-03-19 16:03:35.891] [200942] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-03-19 16:03:35.891] [200942] (matched_filter.cc:141): AEC3: Pre echo configuration:  threshold = 0.5, mode =  3.
-[2025-03-19 16:03:35.891] [200942] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
-[2025-03-19 16:03:35.891] [200942] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
-[2025-03-19 16:03:35.891] [200942] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-03-19 16:03:35.891] [200942] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
-[2025-03-19 16:03:35.891] [200942] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
-[2025-03-19 16:03:35.891] [200942] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
-[2025-03-19 16:03:35.891] [200942] (captured_audio_processor.cpp:140): SetNoiseCancellation: 0
-[2025-03-19 16:03:35.891] [200942] (audio_processing_impl.cc:911): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
-[2025-03-19 16:03:35.891] [200942] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
-[2025-03-19 16:03:35.893] [200942] (engine.cpp:730): Setting audio input device id: 'default'
-[2025-03-19 16:03:35.893] [200942] (audio_engine.cpp:195): Setting audio input device: 'default'
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:826): RecordingIsInitialized
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:35.893] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:573): output: 1
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:35.893] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:35.893] [200942] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2025-03-19 16:03:35.893] [200942] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-03-19 16:03:35.893] [200942] (audio_engine.cpp:212): Setting audio output device: 'default'
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:820): PlayoutIsInitialized
-[2025-03-19 16:03:35.893] [200942] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:619): output: 1
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2025-03-19 16:03:35.894] [200942] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
-[2025-03-19 16:03:35.894] [200942] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2025-03-19 16:03:35.894] [200942] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-03-19 16:03:35.894] [200942] (engine_audio_transport.cpp:589): EngineAudioTransport::SetSidechainCompression 0
-[2025-03-19 16:03:35.894] [200942] (engine_audio_transport.cpp:600): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
-[2025-03-19 16:03:35.894] [200942] (engine.cpp:229): *** OnDevicesChanged:
-[2025-03-19 16:03:35.894] [200942] (engine.cpp:230): * audioInput:
-[2025-03-19 16:03:35.894] [200942] (engine.cpp:235): * audioOutput:
-[2025-03-19 16:03:35.894] [200942] (engine.cpp:730): Setting audio input device id: 'default'
-[2025-03-19 16:03:35.894] [200942] (audio_engine.cpp:195): Setting audio input device: 'default'
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:826): RecordingIsInitialized
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:35.894] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:573): output: 1
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:35.894] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:35.894] [200942] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2025-03-19 16:03:35.894] [200942] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-03-19 16:03:35.894] [200942] (audio_engine.cpp:212): Setting audio output device: 'default'
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:820): PlayoutIsInitialized
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2025-03-19 16:03:35.894] [200942] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2025-03-19 16:03:35.895] [200942] (audio_device_impl.cc:619): output: 1
-[2025-03-19 16:03:35.895] [200942] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2025-03-19 16:03:35.895] [200942] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:229): *** OnDevicesChanged:
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:230): * audioInput:
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:233): - default: Family 17h/19h/1ah HD Audio Controller Digital Microphone ()
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:233): - Family 17h/19h/1ah HD Audio Controller Headphones Stereo Microphone ()
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:233): - Family 17h/19h/1ah HD Audio Controller Digital Microphone ()
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:235): * audioOutput:
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:238): - default: Family 17h/19h/1ah HD Audio Controller Speaker ()
-[2025-03-19 16:03:35.895] [200942] (engine.cpp:238): - Family 17h/19h/1ah HD Audio Controller Speaker ()
-[2025-03-19 16:03:36.096] [200942] (engine.cpp:730): Setting audio input device id: 'default'
-[2025-03-19 16:03:36.096] [200942] (audio_engine.cpp:195): Setting audio input device: 'default'
-[2025-03-19 16:03:36.096] [200942] (audio_device_impl.cc:826): RecordingIsInitialized
-[2025-03-19 16:03:36.096] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:36.096] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:36.096] [200942] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2025-03-19 16:03:36.097] [200942] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2025-03-19 16:03:36.097] [200942] (audio_device_impl.cc:573): output: 1
-[2025-03-19 16:03:36.097] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:36.097] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:36.097] [200942] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-03-19 16:03:36.097] [200942] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2025-03-19 16:03:36.097] [200942] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-03-19 16:03:36.097] [200942] (audio_engine.cpp:212): Setting audio output device: 'default'
-[2025-03-19 16:03:36.097] [200942] (audio_device_impl.cc:820): PlayoutIsInitialized
-[2025-03-19 16:03:36.097] [200942] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2025-03-19 16:03:36.097] [200942] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:619): output: 1
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2025-03-19 16:03:36.098] [200942] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
-[2025-03-19 16:03:36.098] [200942] (engine.cpp:730): Setting audio input device id: 'default'
-[2025-03-19 16:03:36.098] [200942] (audio_engine.cpp:195): Setting audio input device: 'default'
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:826): RecordingIsInitialized
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:36.098] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:776): SetRecordingDevice(0)
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:566): StereoRecordingIsAvailable
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:573): output: 1
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:578): SetStereoRecording(1)
-[2025-03-19 16:03:36.098] [200942] (audio_device_buffer.cc:202): SetRecordingChannels(2)
-[2025-03-19 16:03:36.098] [200942] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
-[2025-03-19 16:03:36.098] [200942] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
-[2025-03-19 16:03:36.098] [200942] (audio_engine.cpp:212): Setting audio output device: 'default'
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:820): PlayoutIsInitialized
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:708): SetPlayoutDevice(0)
-[2025-03-19 16:03:36.098] [200942] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
-[2025-03-19 16:03:36.099] [200942] (audio_device_impl.cc:619): output: 1
-[2025-03-19 16:03:36.099] [200942] (audio_device_impl.cc:624): SetStereoPlayout(1)
-[2025-03-19 16:03:36.099] [200942] (audio_device_buffer.cc:208): SetPlayoutChannels(2)
-[2025-03-19 16:03:36.613] [200911] JS console: [GatewaySocket] [FAST CONNECT] successfully took over websocket, state:
-[2025-03-19 16:03:36.613] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
-[2025-03-19 16:03:37.397] [200911] JS console: [GatewaySocket] [READY] took 785ms, as b0ed6479a58eff53d918105038b03314
-[2025-03-19 16:03:37.491] [200911] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 878ms
-[2025-03-19 16:03:58.083] [201297] (region_latency_tester.cpp:72): Sending 5 latency test pings to region stockholm
-[2025-03-19 16:03:58.083] [201297] (region_latency_tester.cpp:72): Sending 5 latency test pings to region warsaw
-[2025-03-19 16:03:58.083] [201297] (region_latency_tester.cpp:72): Sending 5 latency test pings to region frankfurt
-[2025-03-19 16:03:58.083] [201297] (region_latency_tester.cpp:72): Sending 5 latency test pings to region rotterdam
-[2025-03-19 16:03:58.083] [201297] (region_latency_tester.cpp:72): Sending 5 latency test pings to region finland
-[2025-03-19 16:03:58.118] [201297] (region_latency_tester.cpp:287): Average RTT for region stockholm is 16
-[2025-03-19 16:03:58.118] [201297] (region_latency_tester.cpp:287): Average RTT for region warsaw is 31.25
-[2025-03-19 16:03:58.118] [201297] (region_latency_tester.cpp:287): Average RTT for region frankfurt is 30.5
-[2025-03-19 16:03:58.119] [201297] (region_latency_tester.cpp:287): Average RTT for region rotterdam is 22.5
-[2025-03-19 16:03:58.119] [201297] (region_latency_tester.cpp:287): Average RTT for region finland is 23.5
-[2025-03-19 16:37:15.167] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.78 seconds.
-[2025-03-19 16:37:17.950] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-19 16:37:18.343] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 392 ms
-[2025-03-19 16:37:18.343] [200911] JS console: [GatewaySocket] [RESUME] resuming session b0ed6479a58eff53d918105038b03314, seq: 342
-[2025-03-19 16:37:18.605] [200911] JS console: [GatewaySocket] [RESUMED] took 655ms, replayed 0 events, new seq: 343
-[2025-03-19 17:37:11.364] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.56 seconds.
-[2025-03-19 17:37:21.960] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-19 17:37:21.966] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.31 seconds.
-[2025-03-19 17:37:22.083] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-19 17:37:22.110] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-19 17:37:22.110] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-19 17:37:22.115] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.69 seconds.
-[2025-03-19 17:37:23.802] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-19 17:37:23.810] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.83 seconds.
-[2025-03-19 17:37:25.641] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-19 17:37:25.656] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.33 seconds.
-[2025-03-19 17:37:26.689] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-19 17:37:26.931] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 242 ms
-[2025-03-19 17:37:26.932] [200911] JS console: [GatewaySocket] [RESUME] resuming session b0ed6479a58eff53d918105038b03314, seq: 1104
-[2025-03-19 17:37:27.123] [200911] JS console: [GatewaySocket] [RESUMED] took 434ms, replayed 0 events, new seq: 1111
-[2025-03-19 17:37:49.323] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.31 seconds.
-[2025-03-20 13:18:56.218] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:18:56.235] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.93 seconds.
-[2025-03-20 13:18:56.345] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:18:56.371] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:18:56.371] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:18:56.375] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.91 seconds.
-[2025-03-20 13:18:59.282] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:18:59.287] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.53 seconds.
-[2025-03-20 13:19:01.086] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:19:01.306] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 220 ms
-[2025-03-20 13:19:02.013] [200911] JS console: [GatewaySocket] [READY] took 927ms, as 11ded22f43872c7be55ae7dcefe890e3
-[2025-03-20 13:19:02.277] [200911] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1190ms
-[2025-03-20 13:19:16.731] [224463] (region_latency_tester.cpp:72): Sending 5 latency test pings to region stockholm
-[2025-03-20 13:19:16.731] [224463] (region_latency_tester.cpp:72): Sending 5 latency test pings to region warsaw
-[2025-03-20 13:19:16.731] [224463] (region_latency_tester.cpp:72): Sending 5 latency test pings to region frankfurt
-[2025-03-20 13:19:16.731] [224463] (region_latency_tester.cpp:72): Sending 5 latency test pings to region rotterdam
-[2025-03-20 13:19:16.731] [224463] (region_latency_tester.cpp:72): Sending 5 latency test pings to region finland
-[2025-03-20 13:19:16.773] [224463] (region_latency_tester.cpp:287): Average RTT for region stockholm is 13.5
-[2025-03-20 13:19:16.773] [224463] (region_latency_tester.cpp:287): Average RTT for region warsaw is 38.5
-[2025-03-20 13:19:16.773] [224463] (region_latency_tester.cpp:287): Average RTT for region frankfurt is 33
-[2025-03-20 13:19:16.773] [224463] (region_latency_tester.cpp:287): Average RTT for region rotterdam is 39.75
-[2025-03-20 13:19:16.774] [224463] (region_latency_tester.cpp:287): Average RTT for region finland is 22.25
-[2025-03-20 13:19:23.375] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.92 seconds.
-[2025-03-20 13:21:02.074] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:02.086] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.92 seconds.
-[2025-03-20 13:21:02.211] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:02.235] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:21:02.235] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:02.241] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.95 seconds.
-[2025-03-20 13:21:05.195] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:05.201] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.28 seconds.
-[2025-03-20 13:21:08.483] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:08.489] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.26 seconds.
-[2025-03-20 13:21:12.750] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:12.756] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 9.82 seconds.
-[2025-03-20 13:21:22.580] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:22.584] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 18.15 seconds.
-[2025-03-20 13:21:22.585] [200911] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
-[2025-03-20 13:21:33.951] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:33.969] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:21:33.969] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:33.975] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.70 seconds.
-[2025-03-20 13:21:35.677] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:35.687] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.64 seconds.
-[2025-03-20 13:21:38.330] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:38.336] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.33 seconds.
-[2025-03-20 13:21:42.662] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:42.669] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.22 seconds.
-[2025-03-20 13:21:47.891] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:47.897] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 12.15 seconds.
-[2025-03-20 13:21:47.897] [200911] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
-[2025-03-20 13:21:58.305] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:21:58.313] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.99 seconds.
-[2025-03-20 13:22:00.304] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:22:00.316] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.52 seconds.
-[2025-03-20 13:22:10.241] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:22:10.265] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:22:10.266] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:22:10.277] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.55 seconds.
-[2025-03-20 13:22:11.823] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:22:11.835] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.63 seconds.
-[2025-03-20 13:22:14.922] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:22:15.168] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 246 ms
-[2025-03-20 13:22:15.945] [200911] JS console: [GatewaySocket] [READY] took 1022ms, as 6c31c30c2e8a0d2e8e4325569358bf79
-[2025-03-20 13:22:16.293] [200911] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1371ms
-[2025-03-20 13:22:37.369] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.07 seconds.
-[2025-03-20 13:23:08.059] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:08.065] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.84 seconds.
-[2025-03-20 13:23:08.189] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:08.215] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:23:08.215] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:08.227] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.98 seconds.
-[2025-03-20 13:23:10.268] [200911] JS console: [RTCLatencyTestManager] Error: Request has been terminated
-Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
-[2025-03-20 13:23:11.210] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:11.220] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.42 seconds.
-[2025-03-20 13:23:16.639] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:16.647] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 15.73 seconds.
-[2025-03-20 13:23:32.376] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:32.383] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 27.59 seconds.
-[2025-03-20 13:23:46.216] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:46.240] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:23:46.240] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:46.256] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.41 seconds.
-[2025-03-20 13:23:47.667] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:47.689] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.15 seconds.
-[2025-03-20 13:23:50.836] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:50.852] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.33 seconds.
-[2025-03-20 13:23:54.183] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:23:54.206] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 9.66 seconds.
-[2025-03-20 13:24:03.868] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:03.878] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 19.99 seconds.
-[2025-03-20 13:24:03.878] [200911] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
-[2025-03-20 13:24:08.524] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:08.783] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 259 ms
-[2025-03-20 13:24:09.636] [200911] JS console: [GatewaySocket] [READY] took 1111ms, as 4d2fd68d816ece8b260d158d989fda41
-[2025-03-20 13:24:09.967] [200911] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1443ms
-[2025-03-20 13:24:13.260] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.75 seconds.
-[2025-03-20 13:24:18.095] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:18.108] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.43 seconds.
-[2025-03-20 13:24:18.221] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:18.237] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:24:18.237] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:18.278] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.86 seconds.
-[2025-03-20 13:24:20.135] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:20.158] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.31 seconds.
-[2025-03-20 13:24:22.971] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:23.212] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 241 ms
-[2025-03-20 13:24:23.213] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 7
-[2025-03-20 13:24:23.439] [200911] JS console: [GatewaySocket] [RESUMED] took 468ms, replayed 0 events, new seq: 15
-[2025-03-20 13:24:45.289] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.51 seconds.
-[2025-03-20 13:24:58.081] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:58.089] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.11 seconds.
-[2025-03-20 13:24:58.210] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:58.232] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:24:58.233] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:58.240] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.72 seconds.
-[2025-03-20 13:24:59.956] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:24:59.963] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.20 seconds.
-[2025-03-20 13:25:03.034] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:03.251] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 217 ms
-[2025-03-20 13:25:03.251] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 27
-[2025-03-20 13:25:03.474] [200911] JS console: [GatewaySocket] [RESUMED] took 440ms, replayed 0 events, new seq: 37
-[2025-03-20 13:25:25.441] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.04 seconds.
-[2025-03-20 13:25:39.491] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:39.497] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.50 seconds.
-[2025-03-20 13:25:39.622] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:39.645] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:25:39.645] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:39.650] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.01 seconds.
-[2025-03-20 13:25:40.664] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:40.673] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.63 seconds.
-[2025-03-20 13:25:42.300] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:42.308] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.69 seconds.
-[2025-03-20 13:25:45.549] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:45.557] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.23 seconds.
-[2025-03-20 13:25:46.786] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:46.792] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.62 seconds.
-[2025-03-20 13:25:47.178] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:47.185] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.19 seconds.
-[2025-03-20 13:25:49.378] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:25:49.586] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 208 ms
-[2025-03-20 13:25:49.586] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 49
-[2025-03-20 13:25:49.777] [200911] JS console: [GatewaySocket] [RESUMED] took 399ms, replayed 0 events, new seq: 60
-[2025-03-20 13:26:06.390] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.53 seconds.
-[2025-03-20 13:26:11.126] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:26:11.137] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.34 seconds.
-[2025-03-20 13:26:11.258] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:26:11.278] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:26:11.278] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:26:11.285] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.86 seconds.
-[2025-03-20 13:26:13.150] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:26:13.155] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.59 seconds.
-[2025-03-20 13:26:16.844] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:26:16.849] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.91 seconds.
-[2025-03-20 13:26:18.763] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:26:19.001] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 238 ms
-[2025-03-20 13:26:19.002] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 71
-[2025-03-20 13:26:19.282] [200911] JS console: [GatewaySocket] [RESUMED] took 519ms, replayed 0 events, new seq: 78
-[2025-03-20 13:26:38.357] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.65 seconds.
-[2025-03-20 13:27:05.064] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:05.080] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.70 seconds.
-[2025-03-20 13:27:05.186] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:05.207] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:27:05.208] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:05.214] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.58 seconds.
-[2025-03-20 13:27:07.799] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:07.804] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.91 seconds.
-[2025-03-20 13:27:09.831] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:10.060] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 228 ms
-[2025-03-20 13:27:10.060] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 93
-[2025-03-20 13:27:10.252] [200911] JS console: [GatewaySocket] [RESUMED] took 421ms, replayed 0 events, new seq: 101
-[2025-03-20 13:27:32.412] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.33 seconds.
-[2025-03-20 13:27:36.212] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:36.220] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.30 seconds.
-[2025-03-20 13:27:36.343] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:36.368] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:27:36.368] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:36.373] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.57 seconds.
-[2025-03-20 13:27:38.940] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:38.944] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.93 seconds.
-[2025-03-20 13:27:44.875] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:44.881] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 15.96 seconds.
-[2025-03-20 13:27:46.640] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:27:46.878] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 238 ms
-[2025-03-20 13:27:46.878] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 112
-[2025-03-20 13:27:47.095] [200911] JS console: [GatewaySocket] [RESUMED] took 455ms, replayed 0 events, new seq: 122
-[2025-03-20 13:28:03.173] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.70 seconds.
-[2025-03-20 13:28:10.072] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:28:10.086] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.66 seconds.
-[2025-03-20 13:28:10.202] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:28:10.223] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:28:10.223] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:28:10.228] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.98 seconds.
-[2025-03-20 13:28:12.207] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:28:12.212] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.90 seconds.
-[2025-03-20 13:28:14.826] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:28:15.065] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 239 ms
-[2025-03-20 13:28:15.065] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 128
-[2025-03-20 13:28:15.256] [200911] JS console: [GatewaySocket] [RESUMED] took 429ms, replayed 0 events, new seq: 131
-[2025-03-20 13:28:36.342] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.45 seconds.
-[2025-03-20 13:29:08.079] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:08.088] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.90 seconds.
-[2025-03-20 13:29:08.207] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:08.233] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:29:08.234] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:08.238] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.56 seconds.
-[2025-03-20 13:29:09.804] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:09.812] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.95 seconds.
-[2025-03-20 13:29:11.761] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:11.768] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.09 seconds.
-[2025-03-20 13:29:13.030] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:13.304] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 274 ms
-[2025-03-20 13:29:13.304] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 139
-[2025-03-20 13:29:13.497] [200911] JS console: [GatewaySocket] [RESUMED] took 467ms, replayed 0 events, new seq: 149
-[2025-03-20 13:29:35.372] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.14 seconds.
-[2025-03-20 13:29:43.055] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:43.064] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.19 seconds.
-[2025-03-20 13:29:43.195] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:43.216] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:29:43.216] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:43.221] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.70 seconds.
-[2025-03-20 13:29:44.924] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:44.930] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.86 seconds.
-[2025-03-20 13:29:48.791] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:48.796] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 11.55 seconds.
-[2025-03-20 13:29:49.998] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:29:50.234] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 235 ms
-[2025-03-20 13:29:50.234] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 166
-[2025-03-20 13:29:50.423] [200911] JS console: [GatewaySocket] [RESUMED] took 425ms, replayed 0 events, new seq: 168
-[2025-03-20 13:30:10.527] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.72 seconds.
-[2025-03-20 13:30:37.076] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:30:37.084] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 8.01 seconds.
-[2025-03-20 13:30:37.215] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:30:37.238] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:30:37.238] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:30:37.244] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.50 seconds.
-[2025-03-20 13:30:39.745] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:30:39.750] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.53 seconds.
-[2025-03-20 13:30:41.691] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:30:41.939] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 248 ms
-[2025-03-20 13:30:41.939] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 180
-[2025-03-20 13:30:42.134] [200911] JS console: [GatewaySocket] [RESUMED] took 443ms, replayed 0 events, new seq: 197
-[2025-03-20 13:31:04.355] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.98 seconds.
-[2025-03-20 13:31:09.230] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:09.237] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.41 seconds.
-[2025-03-20 13:31:09.351] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:09.371] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:31:09.372] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:09.377] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.36 seconds.
-[2025-03-20 13:31:10.733] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:10.738] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.53 seconds.
-[2025-03-20 13:31:13.898] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:14.137] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 238 ms
-[2025-03-20 13:31:14.137] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 213
-[2025-03-20 13:31:14.335] [200911] JS console: [GatewaySocket] [RESUMED] took 437ms, replayed 0 events, new seq: 218
-[2025-03-20 13:31:36.490] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.84 seconds.
-[2025-03-20 13:31:42.073] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:42.081] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.17 seconds.
-[2025-03-20 13:31:42.200] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:42.223] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:31:42.223] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:42.229] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.58 seconds.
-[2025-03-20 13:31:43.814] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:43.819] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.70 seconds.
-[2025-03-20 13:31:48.354] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:48.357] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.05 seconds.
-[2025-03-20 13:31:49.410] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:31:49.642] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 232 ms
-[2025-03-20 13:31:49.642] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 232
-[2025-03-20 13:31:49.835] [200911] JS console: [GatewaySocket] [RESUMED] took 425ms, replayed 0 events, new seq: 239
-[2025-03-20 13:32:09.336] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.87 seconds.
-[2025-03-20 13:32:13.071] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:13.081] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.96 seconds.
-[2025-03-20 13:32:13.198] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:13.219] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:32:13.219] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:13.224] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.56 seconds.
-[2025-03-20 13:32:14.785] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:14.790] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.78 seconds.
-[2025-03-20 13:32:18.566] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:18.570] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 10.67 seconds.
-[2025-03-20 13:32:19.055] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:19.317] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 262 ms
-[2025-03-20 13:32:19.317] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 255
-[2025-03-20 13:32:19.826] [200911] JS console: [GatewaySocket] [RESUMED] took 771ms, replayed 0 events, new seq: 260
-[2025-03-20 13:32:40.393] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.09 seconds.
-[2025-03-20 13:32:45.088] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:45.095] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.70 seconds.
-[2025-03-20 13:32:45.215] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:45.239] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:32:45.240] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:45.245] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.50 seconds.
-[2025-03-20 13:32:47.749] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:47.754] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.43 seconds.
-[2025-03-20 13:32:49.850] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:32:50.116] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 266 ms
-[2025-03-20 13:32:50.116] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 268
-[2025-03-20 13:32:50.304] [200911] JS console: [GatewaySocket] [RESUMED] took 454ms, replayed 0 events, new seq: 272
-[2025-03-20 13:33:12.503] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.84 seconds.
-[2025-03-20 13:33:17.069] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:17.076] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.98 seconds.
-[2025-03-20 13:33:17.197] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:17.219] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:33:17.220] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:17.224] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.75 seconds.
-[2025-03-20 13:33:18.979] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:18.987] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.20 seconds.
-[2025-03-20 13:33:21.824] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:22.226] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 402 ms
-[2025-03-20 13:33:22.226] [200911] JS console: [GatewaySocket] [RESUME] resuming session 4d2fd68d816ece8b260d158d989fda41, seq: 286
-[2025-03-20 13:33:22.451] [200911] JS console: [GatewaySocket] [RESUMED] took 626ms, replayed 0 events, new seq: 291
-[2025-03-20 13:33:44.477] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.81 seconds.
-[2025-03-20 13:33:57.495] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:57.503] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.62 seconds.
-[2025-03-20 13:33:57.633] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:57.653] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:33:57.653] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:57.657] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.60 seconds.
-[2025-03-20 13:33:59.260] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:33:59.265] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.78 seconds.
-[2025-03-20 13:34:03.049] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:03.054] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.94 seconds.
-[2025-03-20 13:34:08.997] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:09.002] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 17.43 seconds.
-[2025-03-20 13:34:28.057] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:28.067] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 36.52 seconds.
-[2025-03-20 13:34:28.067] [200911] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
-[2025-03-20 13:34:28.191] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:28.205] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:34:28.205] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:28.212] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.90 seconds.
-[2025-03-20 13:34:31.111] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:31.117] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.39 seconds.
-[2025-03-20 13:34:36.509] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:36.515] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 7.12 seconds.
-[2025-03-20 13:34:43.640] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:43.646] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 8.91 seconds.
-[2025-03-20 13:34:52.552] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:34:52.559] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 20.39 seconds.
-[2025-03-20 13:34:52.559] [200911] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
-[2025-03-20 13:35:01.174] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:35:01.197] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:35:01.198] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:35:01.204] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.65 seconds.
-[2025-03-20 13:35:03.854] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:35:03.860] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.92 seconds.
-[2025-03-20 13:35:06.776] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:35:06.783] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 8.73 seconds.
-[2025-03-20 13:35:15.513] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:35:15.520] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 25.41 seconds.
-[2025-03-20 13:38:29.154] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:38:29.176] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 13:38:29.176] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:38:29.190] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.08 seconds.
-[2025-03-20 13:38:31.266] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:38:31.279] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.17 seconds.
-[2025-03-20 13:38:36.451] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:38:36.461] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 11.15 seconds.
-[2025-03-20 13:38:47.610] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 13:38:47.623] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 26.21 seconds.
-[2025-03-20 15:35:23.109] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 15:35:23.131] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 15:35:23.131] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 15:35:23.145] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.44 seconds.
-[2025-03-20 15:35:25.586] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 15:35:25.597] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.75 seconds.
-[2025-03-20 15:35:32.342] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 15:35:32.356] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 16.95 seconds.
-[2025-03-20 15:35:49.302] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 15:35:49.311] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 34.39 seconds.
-[2025-03-20 17:34:08.217] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:08.239] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 17:34:08.239] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:08.254] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.23 seconds.
-[2025-03-20 17:34:10.480] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:10.520] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.27 seconds.
-[2025-03-20 17:34:15.786] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:15.828] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 7.93 seconds.
-[2025-03-20 17:34:23.760] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:23.764] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 12.73 seconds.
-[2025-03-20 17:34:41.067] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:41.074] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 21.28 seconds.
-[2025-03-20 17:34:41.074] [200911] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
-[2025-03-20 17:34:41.194] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:41.216] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 17:34:41.216] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:41.221] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.41 seconds.
-[2025-03-20 17:34:43.628] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:43.633] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.03 seconds.
-[2025-03-20 17:34:49.667] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:34:49.675] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 17.48 seconds.
-[2025-03-20 17:35:07.153] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:35:07.177] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 23.41 seconds.
-[2025-03-20 17:36:45.209] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:36:45.230] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 17:36:45.230] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:36:45.255] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.02 seconds.
-[2025-03-20 17:36:47.272] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:36:47.349] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.83 seconds.
-[2025-03-20 17:36:52.175] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:36:52.491] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 10.21 seconds.
-[2025-03-20 17:37:02.697] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:37:03.071] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 10.75 seconds.
-[2025-03-20 17:38:45.078] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:38:45.211] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 17:38:45.212] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:38:45.234] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 17:38:45.234] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:38:47.686] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.04 seconds.
-[2025-03-20 17:38:48.724] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:38:50.906] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.35 seconds.
-[2025-03-20 17:38:53.251] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:38:57.524] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.99 seconds.
-[2025-03-20 17:39:03.517] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:39:06.230] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 11.89 seconds.
-[2025-03-20 17:43:58.190] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:43:58.215] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 17:43:58.216] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:44:02.923] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.72 seconds.
-[2025-03-20 17:44:04.643] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:44:05.934] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.02 seconds.
-[2025-03-20 17:44:08.782] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:44:12.952] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 4170 ms
-[2025-03-20 17:44:13.901] [200911] JS console: [GatewaySocket] [READY] took 5119ms, as 4061a9252c26f8038546841edee4b3ca
-[2025-03-20 17:44:14.300] [200911] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 5518ms
-[2025-03-20 17:44:25.266] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.67 seconds.
-[2025-03-20 17:49:17.211] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:49:17.315] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.95 seconds.
-[2025-03-20 17:49:17.336] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:49:17.361] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 17:49:17.361] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:49:17.781] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.91 seconds.
-[2025-03-20 17:49:19.858] [200911] JS console: [RTCLatencyTestManager] Error: Request has been terminated
-Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
-[2025-03-20 17:49:20.688] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:49:21.366] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 8.10 seconds.
-[2025-03-20 17:49:22.048] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 17:49:23.413] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1365 ms
-[2025-03-20 17:49:24.144] [200911] JS console: [GatewaySocket] [READY] took 2095ms, as 727120085a89a819eac5bfc405198a48
-[2025-03-20 17:49:24.508] [200911] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 2460ms
-[2025-03-20 17:49:34.507] [230107] (region_latency_tester.cpp:72): Sending 5 latency test pings to region stockholm
-[2025-03-20 17:49:34.507] [230107] (region_latency_tester.cpp:72): Sending 5 latency test pings to region warsaw
-[2025-03-20 17:49:34.507] [230107] (region_latency_tester.cpp:72): Sending 5 latency test pings to region frankfurt
-[2025-03-20 17:49:34.507] [230107] (region_latency_tester.cpp:72): Sending 5 latency test pings to region rotterdam
-[2025-03-20 17:49:34.507] [230107] (region_latency_tester.cpp:72): Sending 5 latency test pings to region finland
-[2025-03-20 17:49:34.540] [230107] (region_latency_tester.cpp:287): Average RTT for region stockholm is 14.5
-[2025-03-20 17:49:34.540] [230107] (region_latency_tester.cpp:287): Average RTT for region warsaw is 31.75
-[2025-03-20 17:49:34.540] [230107] (region_latency_tester.cpp:287): Average RTT for region frankfurt is 32
-[2025-03-20 17:49:34.540] [230107] (region_latency_tester.cpp:287): Average RTT for region rotterdam is 23
-[2025-03-20 17:49:34.540] [230107] (region_latency_tester.cpp:287): Average RTT for region finland is 26.5
-[2025-03-20 17:49:44.364] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.13 seconds.
-[2025-03-20 20:55:07.976] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:08.013] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.57 seconds.
-[2025-03-20 20:55:08.104] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:08.129] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 20:55:08.129] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:08.171] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.03 seconds.
-[2025-03-20 20:55:09.201] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:09.255] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.44 seconds.
-[2025-03-20 20:55:10.695] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:10.799] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.96 seconds.
-[2025-03-20 20:55:13.758] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:14.071] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.01 seconds.
-[2025-03-20 20:55:14.108] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:14.233] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.72 seconds.
-[2025-03-20 20:55:16.953] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:17.072] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 7.08 seconds.
-[2025-03-20 20:55:24.154] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 20:55:24.525] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 14.73 seconds.
-[2025-03-20 22:12:19.126] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 22:12:19.149] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-20 22:12:19.150] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 22:12:19.819] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.14 seconds.
-[2025-03-20 22:12:20.964] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 22:12:21.372] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.05 seconds.
-[2025-03-20 22:12:23.422] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 22:12:24.475] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.91 seconds.
-[2025-03-20 22:12:25.196] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 22:12:26.174] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.13 seconds.
-[2025-03-20 22:12:28.304] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 22:12:30.224] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.31 seconds.
-[2025-03-20 22:12:36.531] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-20 22:12:38.298] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 14.06 seconds.
-[2025-03-21 01:26:26.106] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:26.132] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-21 01:26:26.132] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:28.492] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.77 seconds.
-[2025-03-21 01:26:30.260] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:31.834] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.26 seconds.
-[2025-03-21 01:26:32.732] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:34.714] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.05 seconds.
-[2025-03-21 01:26:35.765] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:37.539] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.44 seconds.
-[2025-03-21 01:26:38.984] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:39.023] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.03 seconds.
-[2025-03-21 01:26:43.055] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:43.132] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 5.26 seconds.
-[2025-03-21 01:26:48.395] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 01:26:48.423] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 10.92 seconds.
-[2025-03-21 01:26:48.423] [200911] JS console: [GatewaySocket] [RESET] (false, 0, An error with the websocket occurred)
-[2025-03-21 04:36:20.123] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:20.145] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-21 04:36:20.146] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:20.424] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.63 seconds.
-[2025-03-21 04:36:22.050] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:22.190] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.99 seconds.
-[2025-03-21 04:36:26.180] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:26.491] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 7.42 seconds.
-[2025-03-21 04:36:26.538] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:26.756] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.60 seconds.
-[2025-03-21 04:36:28.352] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:28.641] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.81 seconds.
-[2025-03-21 04:36:32.447] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:32.717] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 10.90 seconds.
-[2025-03-21 04:36:43.618] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 04:36:43.822] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 32.45 seconds.
-[2025-03-21 07:52:13.122] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 07:52:13.146] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-21 07:52:13.146] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 07:52:15.542] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.76 seconds.
-[2025-03-21 07:52:18.307] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 07:52:18.816] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.72 seconds.
-[2025-03-21 07:52:19.385] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 07:52:19.932] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.67 seconds.
-[2025-03-21 07:52:22.600] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 07:52:23.852] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.02 seconds.
-[2025-03-21 07:52:27.873] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 07:52:29.555] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.79 seconds.
-[2025-03-21 07:52:36.349] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 07:52:39.629] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 18.93 seconds.
-[2025-03-21 11:07:46.092] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 11:07:46.116] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-21 11:07:46.116] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 11:07:50.524] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.04 seconds.
-[2025-03-21 11:07:52.357] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 11:07:54.691] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.41 seconds.
-[2025-03-21 11:07:56.097] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 11:07:57.277] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.35 seconds.
-[2025-03-21 11:07:59.628] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 11:08:02.007] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.64 seconds.
-[2025-03-21 11:08:06.645] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 11:08:07.706] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 12.15 seconds.
-[2025-03-21 13:58:42.128] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 13:58:42.149] [200911] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
-[2025-03-21 13:58:42.150] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 13:58:46.515] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.18 seconds.
-[2025-03-21 13:58:47.695] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 13:58:49.804] [200911] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying immediately.
-[2025-03-21 13:58:49.804] [200911] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
-[2025-03-21 13:58:51.892] [200911] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 2088 ms
-                                                                                                                                                                                                                        
+[2025-05-15 10:00:19.665] [235321] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-15 10:00:19.665] [235321] (audio_engine.cpp:564): Creating audio engine: standard
+[2025-05-15 10:00:19.665] [235321] (audio_device_impl.cc:320): Init
+[2025-05-15 10:00:19.668] [235321] (audio_device_impl.cc:320): Init
+[2025-05-15 10:00:19.670] [235321] (audio_coding.cpp:158): Using software Opus decoder
+[2025-05-15 10:00:19.670] [235321] (audio_coding.cpp:175): Using software Opus encoder
+[2025-05-15 10:00:19.670] [235321] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-05-15 10:00:19.670] [235321] (audio_device_impl.cc:503): SetMicrophoneVolume(100)
+[2025-05-15 10:00:19.670] [235321] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-15 10:00:19.670] [235321] (audio_device_impl.cc:851): RegisterAudioCallback
+[2025-05-15 10:00:19.670] [235321] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-15 10:00:19.670] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.670] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.670] [235321] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:529): output: 1
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.671] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.671] [235321] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-15 10:00:19.671] [235321] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-15 10:00:19.671] [235321] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:575): output: 1
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-15 10:00:19.671] [235321] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:867): BuiltInAECIsAvailable
+[2025-05-15 10:00:19.671] [235321] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2025-05-15 10:00:19.671] [235321] (audio_device_impl.cc:870): output: 0
+[2025-05-15 10:00:19.671] [235321] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-15 10:00:19.672] [235321] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2025-05-15 10:00:19.672] [235321] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2025-05-15 10:00:19.672] [235321] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-15 10:00:19.672] [235321] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
+[2025-05-15 10:00:19.672] [235321] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
+[2025-05-15 10:00:19.672] [235321] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
+[2025-05-15 10:00:19.672] [235321] (captured_audio_processor.cpp:157): SetNoiseCancellation: 0
+[2025-05-15 10:00:19.672] [235321] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2025-05-15 10:00:19.672] [235321] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetDeviceChangeCallback' queued for 111.268ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetVideoInputInitializationCallback' queued for 111.273ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetAudioInputInitializationCallback' queued for 111.276ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetDuckingPreference' queued for 111.264ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetIdleJitterBufferFlush' queued for 111.269ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetNativeScreenSharePickerCallbacks' queued for 111.261ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetAudioDeviceModuleErrorCallback' queued for 111.266ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetVideoCodecErrorCallback' queued for 111.27ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'GetAudioSubsystem' queued for 111.258ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetLoopbackPlaybackGainMultiplier' queued for 111.244ms
+[2025-05-15 10:00:19.674] [235321] (instrumented_task.cpp:16): Long Queue Time: Task 'SetVoiceFiltersFailedCallback' queued for 111.254ms
+[2025-05-15 10:00:19.675] [235321] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-15 10:00:19.675] [235321] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.675] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:529): output: 1
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.675] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.675] [235321] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-15 10:00:19.675] [235321] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-15 10:00:19.675] [235321] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-15 10:00:19.675] [235321] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:575): output: 1
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-15 10:00:19.676] [235321] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-15 10:00:19.676] [235321] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-15 10:00:19.676] [235321] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-15 10:00:19.676] [235321] (engine_audio_transport.cpp:589): EngineAudioTransport::SetSidechainCompression 0
+[2025-05-15 10:00:19.676] [235321] (engine_audio_transport.cpp:600): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:230): * audioInput:
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:235): * audioOutput:
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-15 10:00:19.676] [235321] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.676] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:529): output: 1
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.676] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.676] [235321] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-15 10:00:19.676] [235321] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-15 10:00:19.676] [235321] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:575): output: 1
+[2025-05-15 10:00:19.676] [235321] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-15 10:00:19.676] [235321] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:229): *** OnDevicesChanged:
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:230): * audioInput:
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:233): - default: Family 17h/19h/1ah HD Audio Controller Digital Microphone ()
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:233): - Family 17h/19h/1ah HD Audio Controller Stereo Microphone ()
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:233): - Family 17h/19h/1ah HD Audio Controller Digital Microphone ()
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:235): * audioOutput:
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:238): - default: Family 17h/19h/1ah HD Audio Controller Speaker ()
+[2025-05-15 10:00:19.676] [235321] (engine.cpp:238): - Family 17h/19h/1ah HD Audio Controller Speaker ()
+[2025-05-15 10:00:19.905] [235321] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-15 10:00:19.905] [235321] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.905] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:529): output: 1
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.905] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.905] [235321] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-15 10:00:19.905] [235321] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-15 10:00:19.905] [235321] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-15 10:00:19.905] [235321] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:575): output: 1
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-15 10:00:19.906] [235321] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-15 10:00:19.906] [235321] (engine.cpp:730): Setting audio input device id: 'default'
+[2025-05-15 10:00:19.906] [235321] (audio_engine.cpp:209): Setting audio input device: 'default'
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:782): RecordingIsInitialized
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.906] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:732): SetRecordingDevice(0)
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:522): StereoRecordingIsAvailable
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:529): output: 1
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:534): SetStereoRecording(1)
+[2025-05-15 10:00:19.906] [235321] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2025-05-15 10:00:19.906] [235321] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:503): SetMicrophoneVolume(255)
+[2025-05-15 10:00:19.906] [235321] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2025-05-15 10:00:19.906] [235321] (audio_engine.cpp:226): Setting audio output device: 'default'
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:776): PlayoutIsInitialized
+[2025-05-15 10:00:19.906] [235321] (audio_device_impl.cc:664): SetPlayoutDevice(0)
+[2025-05-15 10:00:19.907] [235321] (audio_device_impl.cc:568): StereoPlayoutIsAvailable
+[2025-05-15 10:00:19.907] [235321] (audio_device_impl.cc:575): output: 1
+[2025-05-15 10:00:19.907] [235321] (audio_device_impl.cc:580): SetStereoPlayout(1)
+[2025-05-15 10:00:19.907] [235321] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2025-05-15 10:00:21.104] [234332] JS console: [GatewaySocket] [FAST CONNECT] successfully took over websocket, state:
+[2025-05-15 10:00:21.104] [234332] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 0 ms
+[2025-05-15 10:00:22.213] [234332] JS console: [GatewaySocket] [READY] took 1109ms, as e89f152a0d7a0bad6b58a2d00b936cc1
+[2025-05-15 10:00:22.539] [234332] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1435ms
+[2025-05-15 10:00:53.295] [238700] (region_latency_tester.cpp:73): Sending 5 latency test pings to region stockholm
+[2025-05-15 10:00:53.295] [238700] (region_latency_tester.cpp:73): Sending 5 latency test pings to region warsaw
+[2025-05-15 10:00:53.295] [238700] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2025-05-15 10:00:53.295] [238700] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2025-05-15 10:00:53.296] [238700] (region_latency_tester.cpp:73): Sending 5 latency test pings to region finland
+[2025-05-15 10:00:58.300] [238700] (region_latency_tester.cpp:181): Timing out 1 remaining latency test pings
+[2025-05-15 10:00:58.300] [238700] (region_latency_tester.cpp:288): Average RTT for region stockholm is 15
+[2025-05-15 10:00:58.300] [238700] (region_latency_tester.cpp:288): Average RTT for region warsaw is 37.25
+[2025-05-15 10:00:58.300] [238700] (region_latency_tester.cpp:288): Average RTT for region frankfurt is 33
+[2025-05-15 10:00:58.300] [238700] (region_latency_tester.cpp:288): Average RTT for region rotterdam is 36.75
+[2025-05-15 10:00:58.300] [238700] (region_latency_tester.cpp:288): Average RTT for region finland is 20.75
+[2025-05-15 10:15:19.607] [235321] (instrumented_task.cpp:52): polling 27 metrics

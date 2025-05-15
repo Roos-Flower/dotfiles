@@ -5,11 +5,10 @@ FullScreen=false
 LockSidebar=true
 ShowSidebar=true
 
-[MainWindow]
-ToolBarsMovable=Disabled
-
 [Recent Files]
 File1[$e]=$HOME/Downloads/Gtk.lua
 File2[$e]=$HOME/Screenshot-_20241013124428.png
+File3[$e]=$HOME/discStruc/exercise1.md
 Name1[$e]=Gtk.lua
 Name2[$e]=Screenshot-_20241013124428.png
+Name3[$e]=exercise1.md

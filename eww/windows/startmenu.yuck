@@ -71,8 +71,8 @@
                     :onclick "systemctl poweroff"
                     (label
                           :text "⏻"
-                          :xalign 0.45
-                          :yalign 0.49)
+                          :xalign 0.53
+                          :yalign 0.55)
                     )
                     (eventbox :class "bt2"
                     :onclick "systemctl reboot"

@@ -30,7 +30,7 @@
         // "custom/updates",
         "battery",
         // "battery#bat2",
-        // "tray",
+        "tray",
         "custom/wifi",
         "custom/bluetooth",
         // "bluetooth",

@@ -20,8 +20,11 @@ if status is-interactive
     alias ffind='nvim (fzf --preview="bat --color=always {}")'
     alias cfind='cd (dirname (fzf --preview="bat --color=always {}"))'
     alias fzf='fzf --preview="bat --color=always {}"'
+    alias code='code --disable-workspace-trust'
 
-    # alias eww='~/githubs/eww/target/release/eww'
+    function please
+        eval command sudo $history[1]
+    end
 end
 #tide
 set --global tide_cmd_duration_color brwhite
