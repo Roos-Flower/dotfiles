@@ -1,0 +1,17 @@
+return {
+  "chikko80/error-lens.nvim",
+  event = "BufRead",
+  dependencies = {
+    "nvim-telescope/telescope.nvim",
+  },
+  opts = {
+    error_fg = "#ed8796", -- diagnostic font color
+    error_bg = "#24273a", -- diagnostic line color
+    warn_fg = "#f5a97f",
+    warn_bg = "#24273a",
+    info_fg = "#24273a",
+    info_bg = "#8aadf4",
+    hint_fg = "#24273a",
+    hint_bg = "#a6da95",
+  },
+}
