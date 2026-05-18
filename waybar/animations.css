@@ -1,0 +1,209 @@
+/* Running the animations backwards doesnt seem to work, so there is one for each direction */
+
+@keyframes Hover-bt {
+  from {
+    background-color: @base;
+    color: @blue;
+  }
+  to {
+    background-color: @blue;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-bt {
+  to {
+    background-color: @base;
+    color: @blue;
+  }
+  from {
+    background-color: @blue;
+    color: @base;
+  }
+}
+
+@keyframes Hover-pac {
+  from {
+    background-color: @base;
+    color: @yellow;
+  }
+  to {
+    background-color: @yellow;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-pac {
+  to {
+    background-color: @base;
+    color: @yellow;
+  }
+  from {
+    background-color: @yellow;
+    color: @base;
+  }
+}
+
+@keyframes Hover-clock {
+  from {
+    background-color: @base;
+    color: @mauve;
+  }
+  to {
+    background-color: @mauve;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-clock {
+  to {
+    background-color: @base;
+    color: @mauve;
+  }
+  from {
+    background-color: @mauve;
+    color: @base;
+  }
+}
+
+@keyframes Hover-wifi {
+  from {
+    background-color: @base;
+    color: @teal;
+  }
+  to {
+    background-color: @teal;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-wifi {
+  to {
+    background-color: @base;
+    color: @teal;
+  }
+  from {
+    background-color: @teal;
+    color: @base;
+  }
+}
+@keyframes Hover-bat {
+  from {
+    background-color: @base;
+    color: @green;
+  }
+  to {
+    background-color: @green;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-bat {
+  to {
+    background-color: @base;
+    color: @green;
+  }
+  from {
+    background-color: @green;
+    color: @base;
+  }
+}
+
+@keyframes Hover-pulse {
+  from {
+    background-color: @base;
+    color: @peach;
+  }
+  to {
+    background-color: @peach;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-pulse {
+  to {
+    background-color: @base;
+    color: @peach;
+  }
+  from {
+    background-color: @peach;
+    color: @base;
+  }
+}
+
+@keyframes Hover-arch {
+  from {
+    background-color: @base;
+    color: @rosewater;
+  }
+  to {
+    background-color: @rosewater;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-arch {
+  to {
+    background-color: @base;
+    color: @rosewater;
+  }
+  from {
+    background-color: @rosewater;
+    color: @base;
+  }
+}
+
+@keyframes Hover-nc {
+  from {
+    background-color: @base;
+    color: @lavender;
+  }
+  to {
+    background-color: @lavender;
+    color: @base;
+  }
+}
+@keyframes Hover-rev-nc {
+  to {
+    background-color: @base;
+    color: @lavender;
+  }
+  from {
+    background-color: @lavender;
+    color: @base;
+  }
+}
+/* @keyframes Hover-workspace{ */
+/*     from{ */
+/*         background-color: @base; */
+/*         color: @red; */
+/*     } */
+/*     to{ */
+/*         background-color: @red; */
+/*         color: @base; */
+/*     } */
+/* } */
+/* @keyframes Hover-rev-workspace{ */
+/*     to{ */
+/*         background-color: @base; */
+/*         color: @red; */
+/*     } */
+/*     from{ */
+/*         background-color: @red; */
+/*         color: @base; */
+/*     } */
+/* } */
+
+/* @keyframes Hover-workspace-active{ */
+/*     from{ */
+/*         background-color: @base; */
+/*         color: @pink; */
+/*     } */
+/*     to{ */
+/*         background-color: @pink; */
+/*         color: @base; */
+/*     } */
+/* } */
+/* @keyframes Hover-rev-workspace-active{ */
+/*     to{ */
+/*         background-color: @base; */
+/*         color: @pink; */
+/*     } */
+/*     from{ */
+/*         background-color: @pink; */
+/*         color: @base; */
+/*     } */
+/* } */
