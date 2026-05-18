@@ -12,3 +12,4 @@
 # we cannot complete the migration.
 # As a workaround, erase the universal variable at every shell startup.
 set --erase --universal fish_key_bindings
+set -g fish_key_bindings fish_hybrid_key_bindings

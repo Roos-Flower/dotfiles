@@ -22,6 +22,7 @@ if status is-interactive
     alias fzf='fzf --preview="bat --color=always {}"'
     alias code='code --disable-workspace-trust'
     alias idea='intellij-idea-ultimate-edition'
+    alias ghc='ghc -dynamic'
 
     function please
         eval command sudo $history[1]
@@ -30,6 +31,11 @@ end
 #tide
 set --global tide_cmd_duration_color brwhite
 
+set --export PATH $HOME/.cabal/bin:$HOME/.ghcup/bin $PATH
+
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# Created by `pipx` on 2026-05-07 06:33:55
+set PATH $PATH /home/roos/.local/bin

@@ -9,9 +9,10 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.java" },
   -- { import = "astrocommunity.lsp.nvim-java" },
-  -- { import = "astrocommunity.pack.scala" },
+  { import = "astrocommunity.pack.scala" },
   { import = "astrocommunity.pack.astro" },
-  -- { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.fish" },
   { import = "astrocommunity.pack.json" },
@@ -36,11 +37,12 @@ return {
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust" },
-  -- { import = "astrocommunity.completion.blink-cmp" },
   -- { import = "astrocommunity.pack.tailwindcss" },
   -- { import = "astrocommunity.editing-support.ultimate-autopair-nvim" },
   { import = "astrocommunity.editing-support.conform-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
+  { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.completion.blink-cmp" },
 
   -- import/override with your plugins folder
 }
